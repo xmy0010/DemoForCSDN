@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AC3686F1DC1A31700E756BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC3686E1DC1A31700E756BB /* main.m */; };
+		4AC368721DC1A31700E756BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC368711DC1A31700E756BB /* AppDelegate.m */; };
+		4AC368751DC1A31700E756BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC368741DC1A31700E756BB /* ViewController.m */; };
+		4AC368781DC1A31700E756BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC368761DC1A31700E756BB /* Main.storyboard */; };
+		4AC3687A1DC1A31700E756BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC368791DC1A31700E756BB /* Assets.xcassets */; };
+		4AC3687D1DC1A31700E756BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC3687B1DC1A31700E756BB /* LaunchScreen.storyboard */; };
+		4AC368881DC1A31700E756BB /* T_yunUIMenuControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC368871DC1A31700E756BB /* T_yunUIMenuControllerTests.m */; };
+		4AC368931DC1A31700E756BB /* T_yunUIMenuControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC368921DC1A31700E756BB /* T_yunUIMenuControllerUITests.m */; };
+		4AC368A21DC1A3CD00E756BB /* TyunWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC368A11DC1A3CD00E756BB /* TyunWebView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AC368841DC1A31700E756BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC368621DC1A31700E756BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AC368691DC1A31700E756BB;
+			remoteInfo = T_yunUIMenuController;
+		};
+		4AC3688F1DC1A31700E756BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC368621DC1A31700E756BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AC368691DC1A31700E756BB;
+			remoteInfo = T_yunUIMenuController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AC3686A1DC1A31700E756BB /* T_yunUIMenuController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T_yunUIMenuController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC3686E1DC1A31700E756BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AC368701DC1A31700E756BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AC368711DC1A31700E756BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AC368731DC1A31700E756BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AC368741DC1A31700E756BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AC368771DC1A31700E756BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AC368791DC1A31700E756BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AC3687C1DC1A31700E756BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AC3687E1DC1A31700E756BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC368831DC1A31700E756BB /* T_yunUIMenuControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = T_yunUIMenuControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC368871DC1A31700E756BB /* T_yunUIMenuControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = T_yunUIMenuControllerTests.m; sourceTree = "<group>"; };
+		4AC368891DC1A31700E756BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC3688E1DC1A31700E756BB /* T_yunUIMenuControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = T_yunUIMenuControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC368921DC1A31700E756BB /* T_yunUIMenuControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = T_yunUIMenuControllerUITests.m; sourceTree = "<group>"; };
+		4AC368941DC1A31700E756BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC368A01DC1A3CD00E756BB /* TyunWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyunWebView.h; sourceTree = "<group>"; };
+		4AC368A11DC1A3CD00E756BB /* TyunWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TyunWebView.m; sourceTree = "<group>"; };
+		4AC368A31DC1ED4600E756BB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		4AC368A41DC1ED4700E756BB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AC368671DC1A31700E756BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC368801DC1A31700E756BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC3688B1DC1A31700E756BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AC368611DC1A31700E756BB = {
+			isa = PBXGroup;
+			children = (
+				4AC3686C1DC1A31700E756BB /* T_yunUIMenuController */,
+				4AC368861DC1A31700E756BB /* T_yunUIMenuControllerTests */,
+				4AC368911DC1A31700E756BB /* T_yunUIMenuControllerUITests */,
+				4AC3686B1DC1A31700E756BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AC3686B1DC1A31700E756BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AC3686A1DC1A31700E756BB /* T_yunUIMenuController.app */,
+				4AC368831DC1A31700E756BB /* T_yunUIMenuControllerTests.xctest */,
+				4AC3688E1DC1A31700E756BB /* T_yunUIMenuControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AC3686C1DC1A31700E756BB /* T_yunUIMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				4AC368701DC1A31700E756BB /* AppDelegate.h */,
+				4AC368711DC1A31700E756BB /* AppDelegate.m */,
+				4AC368731DC1A31700E756BB /* ViewController.h */,
+				4AC368741DC1A31700E756BB /* ViewController.m */,
+				4AC368761DC1A31700E756BB /* Main.storyboard */,
+				4AC368791DC1A31700E756BB /* Assets.xcassets */,
+				4AC3687B1DC1A31700E756BB /* LaunchScreen.storyboard */,
+				4AC3687E1DC1A31700E756BB /* Info.plist */,
+				4AC3686D1DC1A31700E756BB /* Supporting Files */,
+				4AC368A01DC1A3CD00E756BB /* TyunWebView.h */,
+				4AC368A11DC1A3CD00E756BB /* TyunWebView.m */,
+			);
+			path = T_yunUIMenuController;
+			sourceTree = "<group>";
+		};
+		4AC3686D1DC1A31700E756BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AC3686E1DC1A31700E756BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AC368861DC1A31700E756BB /* T_yunUIMenuControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AC368871DC1A31700E756BB /* T_yunUIMenuControllerTests.m */,
+				4AC368891DC1A31700E756BB /* Info.plist */,
+			);
+			path = T_yunUIMenuControllerTests;
+			sourceTree = "<group>";
+		};
+		4AC368911DC1A31700E756BB /* T_yunUIMenuControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AC368921DC1A31700E756BB /* T_yunUIMenuControllerUITests.m */,
+				4AC368941DC1A31700E756BB /* Info.plist */,
+			);
+			path = T_yunUIMenuControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AC368691DC1A31700E756BB /* T_yunUIMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC368971DC1A31700E756BB /* Build configuration list for PBXNativeTarget "T_yunUIMenuController" */;
+			buildPhases = (
+				4AC368661DC1A31700E756BB /* Sources */,
+				4AC368671DC1A31700E756BB /* Frameworks */,
+				4AC368681DC1A31700E756BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T_yunUIMenuController;
+			productName = T_yunUIMenuController;
+			productReference = 4AC3686A1DC1A31700E756BB /* T_yunUIMenuController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AC368821DC1A31700E756BB /* T_yunUIMenuControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC3689A1DC1A31700E756BB /* Build configuration list for PBXNativeTarget "T_yunUIMenuControllerTests" */;
+			buildPhases = (
+				4AC3687F1DC1A31700E756BB /* Sources */,
+				4AC368801DC1A31700E756BB /* Frameworks */,
+				4AC368811DC1A31700E756BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AC368851DC1A31700E756BB /* PBXTargetDependency */,
+			);
+			name = T_yunUIMenuControllerTests;
+			productName = T_yunUIMenuControllerTests;
+			productReference = 4AC368831DC1A31700E756BB /* T_yunUIMenuControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AC3688D1DC1A31700E756BB /* T_yunUIMenuControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC3689D1DC1A31700E756BB /* Build configuration list for PBXNativeTarget "T_yunUIMenuControllerUITests" */;
+			buildPhases = (
+				4AC3688A1DC1A31700E756BB /* Sources */,
+				4AC3688B1DC1A31700E756BB /* Frameworks */,
+				4AC3688C1DC1A31700E756BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AC368901DC1A31700E756BB /* PBXTargetDependency */,
+			);
+			name = T_yunUIMenuControllerUITests;
+			productName = T_yunUIMenuControllerUITests;
+			productReference = 4AC3688E1DC1A31700E756BB /* T_yunUIMenuControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AC368621DC1A31700E756BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "优谱德";
+				TargetAttributes = {
+					4AC368691DC1A31700E756BB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = P7VM5F7Z6Z;
+						ProvisioningStyle = Automatic;
+					};
+					4AC368821DC1A31700E756BB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = P7VM5F7Z6Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4AC368691DC1A31700E756BB;
+					};
+					4AC3688D1DC1A31700E756BB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = P7VM5F7Z6Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4AC368691DC1A31700E756BB;
+					};
+				};
+			};
+			buildConfigurationList = 4AC368651DC1A31700E756BB /* Build configuration list for PBXProject "T_yunUIMenuController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AC368611DC1A31700E756BB;
+			productRefGroup = 4AC3686B1DC1A31700E756BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AC368691DC1A31700E756BB /* T_yunUIMenuController */,
+				4AC368821DC1A31700E756BB /* T_yunUIMenuControllerTests */,
+				4AC3688D1DC1A31700E756BB /* T_yunUIMenuControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AC368681DC1A31700E756BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC3687D1DC1A31700E756BB /* LaunchScreen.storyboard in Resources */,
+				4AC3687A1DC1A31700E756BB /* Assets.xcassets in Resources */,
+				4AC368781DC1A31700E756BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC368811DC1A31700E756BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC3688C1DC1A31700E756BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AC368661DC1A31700E756BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC368751DC1A31700E756BB /* ViewController.m in Sources */,
+				4AC368A21DC1A3CD00E756BB /* TyunWebView.m in Sources */,
+				4AC368721DC1A31700E756BB /* AppDelegate.m in Sources */,
+				4AC3686F1DC1A31700E756BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC3687F1DC1A31700E756BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC368881DC1A31700E756BB /* T_yunUIMenuControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC3688A1DC1A31700E756BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC368931DC1A31700E756BB /* T_yunUIMenuControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AC368851DC1A31700E756BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AC368691DC1A31700E756BB /* T_yunUIMenuController */;
+			targetProxy = 4AC368841DC1A31700E756BB /* PBXContainerItemProxy */;
+		};
+		4AC368901DC1A31700E756BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AC368691DC1A31700E756BB /* T_yunUIMenuController */;
+			targetProxy = 4AC3688F1DC1A31700E756BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AC368761DC1A31700E756BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AC368771DC1A31700E756BB /* Base */,
+				4AC368A31DC1ED4600E756BB /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AC3687B1DC1A31700E756BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AC3687C1DC1A31700E756BB /* Base */,
+				4AC368A41DC1ED4700E756BB /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AC368951DC1A31700E756BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4AC368961DC1A31700E756BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AC368981DC1A31700E756BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P7VM5F7Z6Z;
+				INFOPLIST_FILE = T_yunUIMenuController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.youpude.T-yunUIMenuController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AC368991DC1A31700E756BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P7VM5F7Z6Z;
+				INFOPLIST_FILE = T_yunUIMenuController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.youpude.T-yunUIMenuController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4AC3689B1DC1A31700E756BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P7VM5F7Z6Z;
+				INFOPLIST_FILE = T_yunUIMenuControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.youpude.T-yunUIMenuControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T_yunUIMenuController.app/T_yunUIMenuController";
+			};
+			name = Debug;
+		};
+		4AC3689C1DC1A31700E756BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P7VM5F7Z6Z;
+				INFOPLIST_FILE = T_yunUIMenuControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.youpude.T-yunUIMenuControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T_yunUIMenuController.app/T_yunUIMenuController";
+			};
+			name = Release;
+		};
+		4AC3689E1DC1A31700E756BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P7VM5F7Z6Z;
+				INFOPLIST_FILE = T_yunUIMenuControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.youpude.T-yunUIMenuControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = T_yunUIMenuController;
+			};
+			name = Debug;
+		};
+		4AC3689F1DC1A31700E756BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P7VM5F7Z6Z;
+				INFOPLIST_FILE = T_yunUIMenuControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.youpude.T-yunUIMenuControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = T_yunUIMenuController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AC368651DC1A31700E756BB /* Build configuration list for PBXProject "T_yunUIMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC368951DC1A31700E756BB /* Debug */,
+				4AC368961DC1A31700E756BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC368971DC1A31700E756BB /* Build configuration list for PBXNativeTarget "T_yunUIMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC368981DC1A31700E756BB /* Debug */,
+				4AC368991DC1A31700E756BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AC3689A1DC1A31700E756BB /* Build configuration list for PBXNativeTarget "T_yunUIMenuControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC3689B1DC1A31700E756BB /* Debug */,
+				4AC3689C1DC1A31700E756BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AC3689D1DC1A31700E756BB /* Build configuration list for PBXNativeTarget "T_yunUIMenuControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC3689E1DC1A31700E756BB /* Debug */,
+				4AC3689F1DC1A31700E756BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AC368621DC1A31700E756BB /* Project object */;
+}
