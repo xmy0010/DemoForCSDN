@@ -15,6 +15,7 @@
 		4A15FA021C9BB1CD00CE0253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A15FA001C9BB1CD00CE0253 /* LaunchScreen.storyboard */; };
 		4A15FA0D1C9BB1CD00CE0253 /* CSDN_TableView_allSelectedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A15FA0C1C9BB1CD00CE0253 /* CSDN_TableView_allSelectedTests.m */; };
 		4A15FA181C9BB1CD00CE0253 /* CSDN_TableView_allSelectedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A15FA171C9BB1CD00CE0253 /* CSDN_TableView_allSelectedUITests.m */; };
+		4A26A81C1E0240AA00CB5C31 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A26A81B1E0240AA00CB5C31 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4A15FA131C9BB1CD00CE0253 /* CSDN_TableView_allSelectedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSDN_TableView_allSelectedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A15FA171C9BB1CD00CE0253 /* CSDN_TableView_allSelectedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSDN_TableView_allSelectedUITests.m; sourceTree = "<group>"; };
 		4A15FA191C9BB1CD00CE0253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A26A81A1E0240AA00CB5C31 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		4A26A81B1E0240AA00CB5C31 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				4A15FA001C9BB1CD00CE0253 /* LaunchScreen.storyboard */,
 				4A15FA031C9BB1CD00CE0253 /* Info.plist */,
 				4A15F9F21C9BB1CD00CE0253 /* Supporting Files */,
+				4A26A81A1E0240AA00CB5C31 /* Model.h */,
+				4A26A81B1E0240AA00CB5C31 /* Model.m */,
 			);
 			path = CSDN_TableView_allSelected;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				4A15F9FA1C9BB1CD00CE0253 /* ViewController.m in Sources */,
 				4A15F9F71C9BB1CD00CE0253 /* AppDelegate.m in Sources */,
 				4A15F9F41C9BB1CD00CE0253 /* main.m in Sources */,
+				4A26A81C1E0240AA00CB5C31 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +505,7 @@
 				4A15FA1E1C9BB1CD00CE0253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A15FA1F1C9BB1CD00CE0253 /* Build configuration list for PBXNativeTarget "CSDN_TableView_allSelectedTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				4A15FA211C9BB1CD00CE0253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A15FA221C9BB1CD00CE0253 /* Build configuration list for PBXNativeTarget "CSDN_TableView_allSelectedUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				4A15FA241C9BB1CD00CE0253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
