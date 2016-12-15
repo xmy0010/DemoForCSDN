@@ -81,12 +81,12 @@
         for (int i = 0; i < self.dataArray.count; i++) {
 
             NSIndexPath *indexPath = [NSIndexPath indexPathForRow:i inSection:0];
-            [self.tableView selectRowAtIndexPath:indexPath animated:YES scrollPosition:UITableViewScrollPositionTop];
+            [self.tableView selectRowAtIndexPath:indexPath animated:YES scrollPosition:UITableViewScrollPositionNone];
         }
-        for (Model *data in self.selectedData) {
-            
-            NSLog(@"%@", data.name);
-        }
+//        for (Model *data in self.selectedData) {
+//            
+//            NSLog(@"%@", data.name);
+//        }
         
     } else {
         
@@ -98,10 +98,10 @@
             NSIndexPath *indexPath = [NSIndexPath indexPathForRow:i inSection:0];
             [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
         }
-        for (Model *data in self.selectedData) {
-            
-            NSLog(@"%@", data.name);
-        }
+//        for (Model *data in self.selectedData) {
+//            
+//            NSLog(@"%@", data.name);
+//        }
     }
     
 }
@@ -140,6 +140,8 @@
     }
     
     Model *model = self.dataArray[indexPath.row];
+
+    cell.tintColor = [UIColor redColor];
     cell.textLabel.text =  model.name;
     cell.selectedBackgroundView = [[UIView alloc] init];
     
@@ -154,11 +156,7 @@
     Model *model = self.dataArray[indexPath.row];
 
     [self.selectedData addObject:model];
-    
-    for (Model *data in self.selectedData) {
-        
-        NSLog(@"%@", data.name);
-    }
+
 }
 //取消选中
 - (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -166,10 +164,7 @@
     Model *model = self.dataArray[indexPath.row];
 
     [self.selectedData removeObject:model];
-    for (Model *data in self.selectedData) {
-        
-        NSLog(@"%@", data.name);
-    }
+
 }
 
 @end
