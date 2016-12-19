@@ -27,15 +27,15 @@
     
     [self customTableView];
     
-    //线条画满
-    if ([_tableView respondsToSelector:@selector(setSeparatorInset:)]) {
-        
-        [_tableView setSeparatorInset:UIEdgeInsetsZero];
-    }
-    if ([_tableView respondsToSelector:@selector(setLayoutMargins:)]) {
-        
-        [_tableView setLayoutMargins:UIEdgeInsetsZero];
-    }
+//    //线条画满
+//    if ([_tableView respondsToSelector:@selector(setSeparatorInset:)]) {
+//        
+//        [_tableView setSeparatorInset:UIEdgeInsetsZero];
+//    }
+//    if ([_tableView respondsToSelector:@selector(setLayoutMargins:)]) {
+//        
+//        [_tableView setLayoutMargins:UIEdgeInsetsZero];
+//    }
 }
 
 
@@ -112,6 +112,7 @@
 #pragma Mark 左滑按钮 iOS8以上
 - (NSArray<UITableViewRowAction *> *)tableView:(UITableView *)tableView editActionsForRowAtIndexPath:(NSIndexPath *)indexPath {
     
+    
     //添加一个删除按钮
     UITableViewRowAction *deleteAction = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDestructive title:@"删除" handler:^(UITableViewRowAction * _Nonnull action, NSIndexPath * _Nonnull indexPath) {
         
@@ -123,6 +124,8 @@
     //添加一个置顶按钮
     UITableViewRowAction *topAction = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDestructive title:@"置顶" handler:^(UITableViewRowAction * _Nonnull action, NSIndexPath * _Nonnull indexPath) {
         
+//        [self.dataArray exchangeObjectAtIndex:0 withObjectAtIndex:indexPath.row];
+    
         TyunModel *model = self.dataArray[indexPath.row];
         [self.dataArray removeObjectAtIndex:indexPath.row];
         [self.dataArray insertObject:model atIndex:0];
