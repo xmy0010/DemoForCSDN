@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A27CAB51E31A15C002F6899 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A27CAB41E31A15C002F6899 /* main.m */; };
+		4A27CAB81E31A15C002F6899 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A27CAB71E31A15C002F6899 /* AppDelegate.m */; };
+		4A27CABB1E31A15C002F6899 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A27CABA1E31A15C002F6899 /* ViewController.m */; };
+		4A27CABE1E31A15C002F6899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A27CABC1E31A15C002F6899 /* Main.storyboard */; };
+		4A27CAC01E31A15C002F6899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A27CABF1E31A15C002F6899 /* Assets.xcassets */; };
+		4A27CAC31E31A15C002F6899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A27CAC11E31A15C002F6899 /* LaunchScreen.storyboard */; };
+		4A27CACE1E31A15C002F6899 /* TyunBeadsAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A27CACD1E31A15C002F6899 /* TyunBeadsAnimationTests.m */; };
+		4A27CAD91E31A15C002F6899 /* TyunBeadsAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A27CAD81E31A15C002F6899 /* TyunBeadsAnimationUITests.m */; };
+		4A27CAEB1E31A26C002F6899 /* AnimOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A27CAE81E31A26C002F6899 /* AnimOperation.m */; };
+		4A27CAEC1E31A26C002F6899 /* MYAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A27CAEA1E31A26C002F6899 /* MYAnimationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A27CACA1E31A15C002F6899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A27CAA81E31A15C002F6899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A27CAAF1E31A15C002F6899;
+			remoteInfo = TyunBeadsAnimation;
+		};
+		4A27CAD51E31A15C002F6899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A27CAA81E31A15C002F6899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A27CAAF1E31A15C002F6899;
+			remoteInfo = TyunBeadsAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A27CAB01E31A15C002F6899 /* TyunBeadsAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TyunBeadsAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A27CAB41E31A15C002F6899 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A27CAB61E31A15C002F6899 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A27CAB71E31A15C002F6899 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A27CAB91E31A15C002F6899 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A27CABA1E31A15C002F6899 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A27CABD1E31A15C002F6899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A27CABF1E31A15C002F6899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A27CAC21E31A15C002F6899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A27CAC41E31A15C002F6899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A27CAC91E31A15C002F6899 /* TyunBeadsAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TyunBeadsAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A27CACD1E31A15C002F6899 /* TyunBeadsAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TyunBeadsAnimationTests.m; sourceTree = "<group>"; };
+		4A27CACF1E31A15C002F6899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A27CAD41E31A15C002F6899 /* TyunBeadsAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TyunBeadsAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A27CAD81E31A15C002F6899 /* TyunBeadsAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TyunBeadsAnimationUITests.m; sourceTree = "<group>"; };
+		4A27CADA1E31A15C002F6899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A27CAE71E31A26C002F6899 /* AnimOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimOperation.h; sourceTree = "<group>"; };
+		4A27CAE81E31A26C002F6899 /* AnimOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimOperation.m; sourceTree = "<group>"; };
+		4A27CAE91E31A26C002F6899 /* MYAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYAnimationView.h; sourceTree = "<group>"; };
+		4A27CAEA1E31A26C002F6899 /* MYAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAnimationView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A27CAAD1E31A15C002F6899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A27CAC61E31A15C002F6899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A27CAD11E31A15C002F6899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A27CAA71E31A15C002F6899 = {
+			isa = PBXGroup;
+			children = (
+				4A27CAB21E31A15C002F6899 /* TyunBeadsAnimation */,
+				4A27CACC1E31A15C002F6899 /* TyunBeadsAnimationTests */,
+				4A27CAD71E31A15C002F6899 /* TyunBeadsAnimationUITests */,
+				4A27CAB11E31A15C002F6899 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A27CAB11E31A15C002F6899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A27CAB01E31A15C002F6899 /* TyunBeadsAnimation.app */,
+				4A27CAC91E31A15C002F6899 /* TyunBeadsAnimationTests.xctest */,
+				4A27CAD41E31A15C002F6899 /* TyunBeadsAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A27CAB21E31A15C002F6899 /* TyunBeadsAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				4A27CAE61E31A26C002F6899 /* Animation */,
+				4A27CAB61E31A15C002F6899 /* AppDelegate.h */,
+				4A27CAB71E31A15C002F6899 /* AppDelegate.m */,
+				4A27CAB91E31A15C002F6899 /* ViewController.h */,
+				4A27CABA1E31A15C002F6899 /* ViewController.m */,
+				4A27CABC1E31A15C002F6899 /* Main.storyboard */,
+				4A27CABF1E31A15C002F6899 /* Assets.xcassets */,
+				4A27CAC11E31A15C002F6899 /* LaunchScreen.storyboard */,
+				4A27CAC41E31A15C002F6899 /* Info.plist */,
+				4A27CAB31E31A15C002F6899 /* Supporting Files */,
+			);
+			path = TyunBeadsAnimation;
+			sourceTree = "<group>";
+		};
+		4A27CAB31E31A15C002F6899 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A27CAB41E31A15C002F6899 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A27CACC1E31A15C002F6899 /* TyunBeadsAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A27CACD1E31A15C002F6899 /* TyunBeadsAnimationTests.m */,
+				4A27CACF1E31A15C002F6899 /* Info.plist */,
+			);
+			path = TyunBeadsAnimationTests;
+			sourceTree = "<group>";
+		};
+		4A27CAD71E31A15C002F6899 /* TyunBeadsAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A27CAD81E31A15C002F6899 /* TyunBeadsAnimationUITests.m */,
+				4A27CADA1E31A15C002F6899 /* Info.plist */,
+			);
+			path = TyunBeadsAnimationUITests;
+			sourceTree = "<group>";
+		};
+		4A27CAE61E31A26C002F6899 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				4A27CAE71E31A26C002F6899 /* AnimOperation.h */,
+				4A27CAE81E31A26C002F6899 /* AnimOperation.m */,
+				4A27CAE91E31A26C002F6899 /* MYAnimationView.h */,
+				4A27CAEA1E31A26C002F6899 /* MYAnimationView.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A27CAAF1E31A15C002F6899 /* TyunBeadsAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A27CADD1E31A15C002F6899 /* Build configuration list for PBXNativeTarget "TyunBeadsAnimation" */;
+			buildPhases = (
+				4A27CAAC1E31A15C002F6899 /* Sources */,
+				4A27CAAD1E31A15C002F6899 /* Frameworks */,
+				4A27CAAE1E31A15C002F6899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TyunBeadsAnimation;
+			productName = TyunBeadsAnimation;
+			productReference = 4A27CAB01E31A15C002F6899 /* TyunBeadsAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A27CAC81E31A15C002F6899 /* TyunBeadsAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A27CAE01E31A15C002F6899 /* Build configuration list for PBXNativeTarget "TyunBeadsAnimationTests" */;
+			buildPhases = (
+				4A27CAC51E31A15C002F6899 /* Sources */,
+				4A27CAC61E31A15C002F6899 /* Frameworks */,
+				4A27CAC71E31A15C002F6899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A27CACB1E31A15C002F6899 /* PBXTargetDependency */,
+			);
+			name = TyunBeadsAnimationTests;
+			productName = TyunBeadsAnimationTests;
+			productReference = 4A27CAC91E31A15C002F6899 /* TyunBeadsAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A27CAD31E31A15C002F6899 /* TyunBeadsAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A27CAE31E31A15C002F6899 /* Build configuration list for PBXNativeTarget "TyunBeadsAnimationUITests" */;
+			buildPhases = (
+				4A27CAD01E31A15C002F6899 /* Sources */,
+				4A27CAD11E31A15C002F6899 /* Frameworks */,
+				4A27CAD21E31A15C002F6899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A27CAD61E31A15C002F6899 /* PBXTargetDependency */,
+			);
+			name = TyunBeadsAnimationUITests;
+			productName = TyunBeadsAnimationUITests;
+			productReference = 4A27CAD41E31A15C002F6899 /* TyunBeadsAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A27CAA81E31A15C002F6899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "优谱德";
+				TargetAttributes = {
+					4A27CAAF1E31A15C002F6899 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P7VM5F7Z6Z;
+						ProvisioningStyle = Automatic;
+					};
+					4A27CAC81E31A15C002F6899 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P7VM5F7Z6Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A27CAAF1E31A15C002F6899;
+					};
+					4A27CAD31E31A15C002F6899 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P7VM5F7Z6Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A27CAAF1E31A15C002F6899;
+					};
+				};
+			};
+			buildConfigurationList = 4A27CAAB1E31A15C002F6899 /* Build configuration list for PBXProject "TyunBeadsAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A27CAA71E31A15C002F6899;
+			productRefGroup = 4A27CAB11E31A15C002F6899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A27CAAF1E31A15C002F6899 /* TyunBeadsAnimation */,
+				4A27CAC81E31A15C002F6899 /* TyunBeadsAnimationTests */,
+				4A27CAD31E31A15C002F6899 /* TyunBeadsAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A27CAAE1E31A15C002F6899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A27CAC31E31A15C002F6899 /* LaunchScreen.storyboard in Resources */,
+				4A27CAC01E31A15C002F6899 /* Assets.xcassets in Resources */,
+				4A27CABE1E31A15C002F6899 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A27CAC71E31A15C002F6899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A27CAD21E31A15C002F6899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A27CAAC1E31A15C002F6899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A27CAEB1E31A26C002F6899 /* AnimOperation.m in Sources */,
+				4A27CABB1E31A15C002F6899 /* ViewController.m in Sources */,
+				4A27CAB81E31A15C002F6899 /* AppDelegate.m in Sources */,
+				4A27CAB51E31A15C002F6899 /* main.m in Sources */,
+				4A27CAEC1E31A26C002F6899 /* MYAnimationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A27CAC51E31A15C002F6899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A27CACE1E31A15C002F6899 /* TyunBeadsAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A27CAD01E31A15C002F6899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A27CAD91E31A15C002F6899 /* TyunBeadsAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A27CACB1E31A15C002F6899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A27CAAF1E31A15C002F6899 /* TyunBeadsAnimation */;
+			targetProxy = 4A27CACA1E31A15C002F6899 /* PBXContainerItemProxy */;
+		};
+		4A27CAD61E31A15C002F6899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A27CAAF1E31A15C002F6899 /* TyunBeadsAnimation */;
+			targetProxy = 4A27CAD51E31A15C002F6899 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A27CABC1E31A15C002F6899 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A27CABD1E31A15C002F6899 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A27CAC11E31A15C002F6899 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A27CAC21E31A15C002F6899 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A27CADB1E31A15C002F6899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A27CADC1E31A15C002F6899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A27CADE1E31A15C002F6899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P7VM5F7Z6Z;
+				INFOPLIST_FILE = TyunBeadsAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.TyunBeadsAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A27CADF1E31A15C002F6899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P7VM5F7Z6Z;
+				INFOPLIST_FILE = TyunBeadsAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.TyunBeadsAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A27CAE11E31A15C002F6899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P7VM5F7Z6Z;
+				INFOPLIST_FILE = TyunBeadsAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.TyunBeadsAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TyunBeadsAnimation.app/TyunBeadsAnimation";
+			};
+			name = Debug;
+		};
+		4A27CAE21E31A15C002F6899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P7VM5F7Z6Z;
+				INFOPLIST_FILE = TyunBeadsAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.TyunBeadsAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TyunBeadsAnimation.app/TyunBeadsAnimation";
+			};
+			name = Release;
+		};
+		4A27CAE41E31A15C002F6899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P7VM5F7Z6Z;
+				INFOPLIST_FILE = TyunBeadsAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.TyunBeadsAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TyunBeadsAnimation;
+			};
+			name = Debug;
+		};
+		4A27CAE51E31A15C002F6899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P7VM5F7Z6Z;
+				INFOPLIST_FILE = TyunBeadsAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.TyunBeadsAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TyunBeadsAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A27CAAB1E31A15C002F6899 /* Build configuration list for PBXProject "TyunBeadsAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A27CADB1E31A15C002F6899 /* Debug */,
+				4A27CADC1E31A15C002F6899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A27CADD1E31A15C002F6899 /* Build configuration list for PBXNativeTarget "TyunBeadsAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A27CADE1E31A15C002F6899 /* Debug */,
+				4A27CADF1E31A15C002F6899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A27CAE01E31A15C002F6899 /* Build configuration list for PBXNativeTarget "TyunBeadsAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A27CAE11E31A15C002F6899 /* Debug */,
+				4A27CAE21E31A15C002F6899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A27CAE31E31A15C002F6899 /* Build configuration list for PBXNativeTarget "TyunBeadsAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A27CAE41E31A15C002F6899 /* Debug */,
+				4A27CAE51E31A15C002F6899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A27CAA81E31A15C002F6899 /* Project object */;
+}
