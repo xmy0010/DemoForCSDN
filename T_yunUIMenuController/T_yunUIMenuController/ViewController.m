@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "TyunWebView.h"
+#import "TYWKWebController.h"
 
 @interface ViewController ()
 
@@ -36,6 +37,18 @@
     TyunWebView *web = [[TyunWebView alloc] initWithFrame:self.view.bounds content:string];
 //    [web loadHTMLString:string baseURL:nil];
     [self.view addSubview:web];
+    
+    
+    
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"使用WkWeb" style:UIBarButtonItemStyleDone target:self action:@selector(onWkweb)];
+    self.navigationItem.rightBarButtonItem = item;
 }
 
+
+//用WKWebView实现
+- (void)onWkweb{
+
+    TYWKWebController *vc = [[TYWKWebController alloc] init];
+    [self showViewController:vc sender:nil];
+}
 @end

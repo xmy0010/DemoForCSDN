@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A106B821FB0444D00103456 /* TYWKWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A106B811FB0444D00103456 /* TYWKWebController.m */; };
 		4AC3686F1DC1A31700E756BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC3686E1DC1A31700E756BB /* main.m */; };
 		4AC368721DC1A31700E756BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC368711DC1A31700E756BB /* AppDelegate.m */; };
 		4AC368751DC1A31700E756BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC368741DC1A31700E756BB /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A106B801FB0444D00103456 /* TYWKWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYWKWebController.h; sourceTree = "<group>"; };
+		4A106B811FB0444D00103456 /* TYWKWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYWKWebController.m; sourceTree = "<group>"; };
 		4AC3686A1DC1A31700E756BB /* T_yunUIMenuController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T_yunUIMenuController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC3686E1DC1A31700E756BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4AC368701DC1A31700E756BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				4AC3686D1DC1A31700E756BB /* Supporting Files */,
 				4AC368A01DC1A3CD00E756BB /* TyunWebView.h */,
 				4AC368A11DC1A3CD00E756BB /* TyunWebView.m */,
+				4A106B801FB0444D00103456 /* TYWKWebController.h */,
+				4A106B811FB0444D00103456 /* TYWKWebController.m */,
 			);
 			path = T_yunUIMenuController;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AC368751DC1A31700E756BB /* ViewController.m in Sources */,
+				4A106B821FB0444D00103456 /* TYWKWebController.m in Sources */,
 				4AC368A21DC1A3CD00E756BB /* TyunWebView.m in Sources */,
 				4AC368721DC1A31700E756BB /* AppDelegate.m in Sources */,
 				4AC3686F1DC1A31700E756BB /* main.m in Sources */,
@@ -526,6 +532,7 @@
 				4AC368991DC1A31700E756BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AC3689A1DC1A31700E756BB /* Build configuration list for PBXNativeTarget "T_yunUIMenuControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +541,7 @@
 				4AC3689C1DC1A31700E756BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AC3689D1DC1A31700E756BB /* Build configuration list for PBXNativeTarget "T_yunUIMenuControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +550,7 @@
 				4AC3689F1DC1A31700E756BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
