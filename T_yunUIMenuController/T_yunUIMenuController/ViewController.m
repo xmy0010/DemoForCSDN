@@ -39,6 +39,11 @@
     [self.view addSubview:web];
     
     
+    UITextField *tf = [[UITextField alloc] initWithFrame:CGRectMake(50, 100, 300, 40)];
+    tf.backgroundColor = [UIColor greenColor];
+    tf.placeholder = @"如果不加判断 返回无法使用输入框";
+    [self.view addSubview:tf];
+    
     
     UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"使用WkWeb" style:UIBarButtonItemStyleDone target:self action:@selector(onWkweb)];
     self.navigationItem.rightBarButtonItem = item;

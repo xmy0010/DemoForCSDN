@@ -23,6 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.title = @"使用UIWebview";
     [self becomeFirstResponder];
     UIMenuController * menu = [UIMenuController sharedMenuController];
     UIMenuItem *item0 = [[UIMenuItem alloc]initWithTitle:@"自定义复制" action:@selector(copyContent:)];
