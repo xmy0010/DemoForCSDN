@@ -69,21 +69,17 @@
 //出现
 - (void)menuShow{
 
-    NSLog(@"");
+    NSLog(@"show");
 }
 
 //消失
 - (void)menuHide{
 
-    NSLog(@"");
+    NSLog(@"hide");
 }
 
 #pragma mark Actions
-//点击输入框
--(void)onTapTf{
 
-    NSLog(@"");
-}
 
 #pragma mark --menutViewController
 /**
