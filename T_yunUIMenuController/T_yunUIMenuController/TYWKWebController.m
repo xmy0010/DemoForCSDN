@@ -22,7 +22,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
     self.title = @"使用UIWebview";
     [self becomeFirstResponder];
     UIMenuController * menu = [UIMenuController sharedMenuController];
@@ -35,7 +34,17 @@
     [web loadHTMLString:string baseURL:nil];
     self.web = web;
     [self.view addSubview:web];
+    
+    
+    //监听
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(menuShow) name:UIMenuControllerWillShowMenuNotification object:nil];
+
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(menuHide) name:UIMenuControllerWillHideMenuNotification object:nil];
+
+    
 }
+
+
 
 - (void)viewWillDisappear:(BOOL)animated{
 
@@ -46,6 +55,34 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+- (void)dealloc{
+
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+
+#pragma mark Notifs
+
+//出现
+- (void)menuShow{
+
+    NSLog(@"");
+}
+
+//消失
+- (void)menuHide{
+
+    NSLog(@"");
+}
+
+#pragma mark Actions
+//点击输入框
+-(void)onTapTf{
+
+    NSLog(@"");
 }
 
 #pragma mark --menutViewController
@@ -77,13 +114,39 @@
 - (void)addNotes:(UIMenuController *)menu {
     
     NSLog(@"");
-    //将剪切板文字赋值给label
         __weak typeof(self) weakSelf = self;
         //    Document.getSelection()  window.getSelection()
         [self.web evaluateJavaScript:@"window.getSelection().toString()" completionHandler:^(id _Nullable content, NSError * _Nullable error) {
             NSString *selectContent = (NSString *)content;
-            NSLog(@"选中-----%@", selectContent);
+//            NSLog(@"选中-----%@", selectContent);
+            
+            
+            //让输入框可以响应
+            _dismissSelf = YES;
+            
+            //点击之后可以在输入框中输入东西
+            UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"添加备注" message:nil preferredStyle:UIAlertControllerStyleAlert];
+            [alert addTextFieldWithConfigurationHandler:^(UITextField * _Nonnull textField) {
+                
+                textField.placeholder = @"输入想要添加的备注";
+                
+            }];
+            [alert addAction:[UIAlertAction actionWithTitle:@"sure" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                NSArray *textfields = alert.textFields;
+                UITextField *tf = textfields.firstObject;
+                
+                NSLog(@"内容:%@, 备注:%@", selectContent,tf.text);
+                
+                //让UIMenuController的弹窗恢复正常
+                _dismissSelf = NO;
+            }]];
+            [self presentViewController:alert animated:YES completion:nil];
+            
         }];
+    
+
+    
+    
 }
 - (void)copyContent:(UIMenuController *)menu {
     
