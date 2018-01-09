@@ -19,6 +19,7 @@
 		4AC368881DC1A31700E756BB /* T_yunUIMenuControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC368871DC1A31700E756BB /* T_yunUIMenuControllerTests.m */; };
 		4AC368931DC1A31700E756BB /* T_yunUIMenuControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC368921DC1A31700E756BB /* T_yunUIMenuControllerUITests.m */; };
 		4AC368A21DC1A3CD00E756BB /* TyunWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC368A11DC1A3CD00E756BB /* TyunWebView.m */; };
+		4AED116720048B96007001E4 /* TYSelectedAllController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AED116620048B96007001E4 /* TYSelectedAllController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		4AC368A11DC1A3CD00E756BB /* TyunWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TyunWebView.m; sourceTree = "<group>"; };
 		4AC368A31DC1ED4600E756BB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		4AC368A41DC1ED4700E756BB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		4AED116520048B96007001E4 /* TYSelectedAllController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSelectedAllController.h; sourceTree = "<group>"; };
+		4AED116620048B96007001E4 /* TYSelectedAllController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYSelectedAllController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,8 @@
 				4A697DC61FC6AC7D00DDA1A7 /* TYWkWithTFController.m */,
 				4A697DCB1FC6BB4000DDA1A7 /* TYTextField.h */,
 				4A697DCC1FC6BB4000DDA1A7 /* TYTextField.m */,
+				4AED116520048B96007001E4 /* TYSelectedAllController.h */,
+				4AED116620048B96007001E4 /* TYSelectedAllController.m */,
 			);
 			path = T_yunUIMenuController;
 			sourceTree = "<group>";
@@ -229,7 +234,7 @@
 				TargetAttributes = {
 					4AC368691DC1A31700E756BB = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = P7VM5F7Z6Z;
+						DevelopmentTeam = CKEK6VDE4C;
 						ProvisioningStyle = Automatic;
 					};
 					4AC368821DC1A31700E756BB = {
@@ -305,6 +310,7 @@
 				4A697DC71FC6AC7D00DDA1A7 /* TYWkWithTFController.m in Sources */,
 				4A697DCD1FC6BB4000DDA1A7 /* TYTextField.m in Sources */,
 				4AC3686F1DC1A31700E756BB /* main.m in Sources */,
+				4AED116720048B96007001E4 /* TYSelectedAllController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P7VM5F7Z6Z;
+				DEVELOPMENT_TEAM = CKEK6VDE4C;
 				INFOPLIST_FILE = T_yunUIMenuController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.youpude.T-yunUIMenuController";
@@ -467,7 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P7VM5F7Z6Z;
+				DEVELOPMENT_TEAM = CKEK6VDE4C;
 				INFOPLIST_FILE = T_yunUIMenuController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.youpude.T-yunUIMenuController";

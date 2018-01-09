@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "TyunWebView.h"
 #import "TYWKWebController.h"
+#import "TYSelectedAllController.h"
 
 @interface ViewController ()
 
@@ -46,7 +47,9 @@
     
     
     UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"使用WkWeb" style:UIBarButtonItemStyleDone target:self action:@selector(onWkweb)];
-    self.navigationItem.rightBarButtonItem = item;
+    UIBarButtonItem *item1 = [[UIBarButtonItem alloc] initWithTitle:@"wk带全选不屏蔽" style:UIBarButtonItemStyleDone target:self action:@selector(onWkAllSelect)];
+    self.navigationItem.rightBarButtonItems = @[item, item1];
+    
 }
 
 
@@ -56,4 +59,10 @@
     TYWKWebController *vc = [[TYWKWebController alloc] init];
     [self showViewController:vc sender:nil];
 }
+- (void)onWkAllSelect{
+    
+    TYSelectedAllController *vc = [[TYSelectedAllController alloc] init];
+    [self showViewController:vc sender:nil];
+}
+
 @end

@@ -46,7 +46,7 @@
     
     
     //监听
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(menuShow) name:UIMenuControllerDidHideMenuNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(menuShow) name:UIMenuControllerDidShowMenuNotification object:nil];
 
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(menuHide) name:UIMenuControllerWillHideMenuNotification object:nil];
 
