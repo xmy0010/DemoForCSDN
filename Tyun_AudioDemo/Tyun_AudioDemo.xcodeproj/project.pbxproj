@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0EED9E2046830A006D2FBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0EED9D2046830A006D2FBC /* AppDelegate.m */; };
+		4A0EEDA12046830A006D2FBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0EEDA02046830A006D2FBC /* ViewController.m */; };
+		4A0EEDA42046830A006D2FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0EEDA22046830A006D2FBC /* Main.storyboard */; };
+		4A0EEDA62046830A006D2FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0EEDA52046830A006D2FBC /* Assets.xcassets */; };
+		4A0EEDA92046830A006D2FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0EEDA72046830A006D2FBC /* LaunchScreen.storyboard */; };
+		4A0EEDAC2046830A006D2FBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0EEDAB2046830A006D2FBC /* main.m */; };
+		4A0EEDB62046830A006D2FBC /* Tyun_AudioDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0EEDB52046830A006D2FBC /* Tyun_AudioDemoTests.m */; };
+		4A0EEDC12046830A006D2FBC /* Tyun_AudioDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0EEDC02046830A006D2FBC /* Tyun_AudioDemoUITests.m */; };
+		4A0EEDD12046899A006D2FBC /* 蔡依林 - 倒带.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A0EEDD02046899A006D2FBC /* 蔡依林 - 倒带.mp3 */; };
+		4A0EEDD320468DCC006D2FBC /* receive_msg.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A0EEDD220468DCC006D2FBC /* receive_msg.caf */; };
+		4A0EEDD62050D5FF006D2FBC /* TYMusicPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0EEDD52050D5FF006D2FBC /* TYMusicPlayController.m */; };
+		4A0EEDD92050E093006D2FBC /* TYPhoneticRecognitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0EEDD82050E093006D2FBC /* TYPhoneticRecognitionController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A0EEDB22046830A006D2FBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0EED912046830A006D2FBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0EED982046830A006D2FBC;
+			remoteInfo = Tyun_AudioDemo;
+		};
+		4A0EEDBD2046830A006D2FBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0EED912046830A006D2FBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0EED982046830A006D2FBC;
+			remoteInfo = Tyun_AudioDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A0EED992046830A006D2FBC /* Tyun_AudioDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tyun_AudioDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0EED9C2046830A006D2FBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A0EED9D2046830A006D2FBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A0EED9F2046830A006D2FBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A0EEDA02046830A006D2FBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A0EEDA32046830A006D2FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A0EEDA52046830A006D2FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A0EEDA82046830A006D2FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A0EEDAA2046830A006D2FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0EEDAB2046830A006D2FBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A0EEDB12046830A006D2FBC /* Tyun_AudioDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tyun_AudioDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0EEDB52046830A006D2FBC /* Tyun_AudioDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tyun_AudioDemoTests.m; sourceTree = "<group>"; };
+		4A0EEDB72046830A006D2FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0EEDBC2046830A006D2FBC /* Tyun_AudioDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tyun_AudioDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0EEDC02046830A006D2FBC /* Tyun_AudioDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tyun_AudioDemoUITests.m; sourceTree = "<group>"; };
+		4A0EEDC22046830A006D2FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0EEDD02046899A006D2FBC /* 蔡依林 - 倒带.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "蔡依林 - 倒带.mp3"; sourceTree = "<group>"; };
+		4A0EEDD220468DCC006D2FBC /* receive_msg.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = receive_msg.caf; sourceTree = "<group>"; };
+		4A0EEDD42050D5FF006D2FBC /* TYMusicPlayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYMusicPlayController.h; sourceTree = "<group>"; };
+		4A0EEDD52050D5FF006D2FBC /* TYMusicPlayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYMusicPlayController.m; sourceTree = "<group>"; };
+		4A0EEDD72050E093006D2FBC /* TYPhoneticRecognitionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYPhoneticRecognitionController.h; sourceTree = "<group>"; };
+		4A0EEDD82050E093006D2FBC /* TYPhoneticRecognitionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYPhoneticRecognitionController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A0EED962046830A006D2FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0EEDAE2046830A006D2FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0EEDB92046830A006D2FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0EED902046830A006D2FBC = {
+			isa = PBXGroup;
+			children = (
+				4A0EED9B2046830A006D2FBC /* Tyun_AudioDemo */,
+				4A0EEDB42046830A006D2FBC /* Tyun_AudioDemoTests */,
+				4A0EEDBF2046830A006D2FBC /* Tyun_AudioDemoUITests */,
+				4A0EED9A2046830A006D2FBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A0EED9A2046830A006D2FBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0EED992046830A006D2FBC /* Tyun_AudioDemo.app */,
+				4A0EEDB12046830A006D2FBC /* Tyun_AudioDemoTests.xctest */,
+				4A0EEDBC2046830A006D2FBC /* Tyun_AudioDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A0EED9B2046830A006D2FBC /* Tyun_AudioDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4A0EED9C2046830A006D2FBC /* AppDelegate.h */,
+				4A0EEDD220468DCC006D2FBC /* receive_msg.caf */,
+				4A0EEDD02046899A006D2FBC /* 蔡依林 - 倒带.mp3 */,
+				4A0EED9D2046830A006D2FBC /* AppDelegate.m */,
+				4A0EED9F2046830A006D2FBC /* ViewController.h */,
+				4A0EEDA02046830A006D2FBC /* ViewController.m */,
+				4A0EEDA22046830A006D2FBC /* Main.storyboard */,
+				4A0EEDA52046830A006D2FBC /* Assets.xcassets */,
+				4A0EEDA72046830A006D2FBC /* LaunchScreen.storyboard */,
+				4A0EEDAA2046830A006D2FBC /* Info.plist */,
+				4A0EEDAB2046830A006D2FBC /* main.m */,
+				4A0EEDD42050D5FF006D2FBC /* TYMusicPlayController.h */,
+				4A0EEDD52050D5FF006D2FBC /* TYMusicPlayController.m */,
+				4A0EEDD72050E093006D2FBC /* TYPhoneticRecognitionController.h */,
+				4A0EEDD82050E093006D2FBC /* TYPhoneticRecognitionController.m */,
+			);
+			path = Tyun_AudioDemo;
+			sourceTree = "<group>";
+		};
+		4A0EEDB42046830A006D2FBC /* Tyun_AudioDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0EEDB52046830A006D2FBC /* Tyun_AudioDemoTests.m */,
+				4A0EEDB72046830A006D2FBC /* Info.plist */,
+			);
+			path = Tyun_AudioDemoTests;
+			sourceTree = "<group>";
+		};
+		4A0EEDBF2046830A006D2FBC /* Tyun_AudioDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0EEDC02046830A006D2FBC /* Tyun_AudioDemoUITests.m */,
+				4A0EEDC22046830A006D2FBC /* Info.plist */,
+			);
+			path = Tyun_AudioDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A0EED982046830A006D2FBC /* Tyun_AudioDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0EEDC52046830A006D2FBC /* Build configuration list for PBXNativeTarget "Tyun_AudioDemo" */;
+			buildPhases = (
+				4A0EED952046830A006D2FBC /* Sources */,
+				4A0EED962046830A006D2FBC /* Frameworks */,
+				4A0EED972046830A006D2FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tyun_AudioDemo;
+			productName = Tyun_AudioDemo;
+			productReference = 4A0EED992046830A006D2FBC /* Tyun_AudioDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A0EEDB02046830A006D2FBC /* Tyun_AudioDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0EEDC82046830A006D2FBC /* Build configuration list for PBXNativeTarget "Tyun_AudioDemoTests" */;
+			buildPhases = (
+				4A0EEDAD2046830A006D2FBC /* Sources */,
+				4A0EEDAE2046830A006D2FBC /* Frameworks */,
+				4A0EEDAF2046830A006D2FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0EEDB32046830A006D2FBC /* PBXTargetDependency */,
+			);
+			name = Tyun_AudioDemoTests;
+			productName = Tyun_AudioDemoTests;
+			productReference = 4A0EEDB12046830A006D2FBC /* Tyun_AudioDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A0EEDBB2046830A006D2FBC /* Tyun_AudioDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0EEDCB2046830A006D2FBC /* Build configuration list for PBXNativeTarget "Tyun_AudioDemoUITests" */;
+			buildPhases = (
+				4A0EEDB82046830A006D2FBC /* Sources */,
+				4A0EEDB92046830A006D2FBC /* Frameworks */,
+				4A0EEDBA2046830A006D2FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0EEDBE2046830A006D2FBC /* PBXTargetDependency */,
+			);
+			name = Tyun_AudioDemoUITests;
+			productName = Tyun_AudioDemoUITests;
+			productReference = 4A0EEDBC2046830A006D2FBC /* Tyun_AudioDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A0EED912046830A006D2FBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = tangyun;
+				TargetAttributes = {
+					4A0EED982046830A006D2FBC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					4A0EEDB02046830A006D2FBC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A0EED982046830A006D2FBC;
+					};
+					4A0EEDBB2046830A006D2FBC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A0EED982046830A006D2FBC;
+					};
+				};
+			};
+			buildConfigurationList = 4A0EED942046830A006D2FBC /* Build configuration list for PBXProject "Tyun_AudioDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A0EED902046830A006D2FBC;
+			productRefGroup = 4A0EED9A2046830A006D2FBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A0EED982046830A006D2FBC /* Tyun_AudioDemo */,
+				4A0EEDB02046830A006D2FBC /* Tyun_AudioDemoTests */,
+				4A0EEDBB2046830A006D2FBC /* Tyun_AudioDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A0EED972046830A006D2FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0EEDD12046899A006D2FBC /* 蔡依林 - 倒带.mp3 in Resources */,
+				4A0EEDA92046830A006D2FBC /* LaunchScreen.storyboard in Resources */,
+				4A0EEDA62046830A006D2FBC /* Assets.xcassets in Resources */,
+				4A0EEDA42046830A006D2FBC /* Main.storyboard in Resources */,
+				4A0EEDD320468DCC006D2FBC /* receive_msg.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0EEDAF2046830A006D2FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0EEDBA2046830A006D2FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A0EED952046830A006D2FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0EEDA12046830A006D2FBC /* ViewController.m in Sources */,
+				4A0EEDAC2046830A006D2FBC /* main.m in Sources */,
+				4A0EEDD92050E093006D2FBC /* TYPhoneticRecognitionController.m in Sources */,
+				4A0EEDD62050D5FF006D2FBC /* TYMusicPlayController.m in Sources */,
+				4A0EED9E2046830A006D2FBC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0EEDAD2046830A006D2FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0EEDB62046830A006D2FBC /* Tyun_AudioDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0EEDB82046830A006D2FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0EEDC12046830A006D2FBC /* Tyun_AudioDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A0EEDB32046830A006D2FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0EED982046830A006D2FBC /* Tyun_AudioDemo */;
+			targetProxy = 4A0EEDB22046830A006D2FBC /* PBXContainerItemProxy */;
+		};
+		4A0EEDBE2046830A006D2FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0EED982046830A006D2FBC /* Tyun_AudioDemo */;
+			targetProxy = 4A0EEDBD2046830A006D2FBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A0EEDA22046830A006D2FBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0EEDA32046830A006D2FBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A0EEDA72046830A006D2FBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0EEDA82046830A006D2FBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A0EEDC32046830A006D2FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A0EEDC42046830A006D2FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A0EEDC62046830A006D2FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CKEK6VDE4C;
+				INFOPLIST_FILE = Tyun_AudioDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangyun.Tyun-AudioDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A0EEDC72046830A006D2FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CKEK6VDE4C;
+				INFOPLIST_FILE = Tyun_AudioDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangyun.Tyun-AudioDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A0EEDC92046830A006D2FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CKEK6VDE4C;
+				INFOPLIST_FILE = Tyun_AudioDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangyun.Tyun-AudioDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tyun_AudioDemo.app/Tyun_AudioDemo";
+			};
+			name = Debug;
+		};
+		4A0EEDCA2046830A006D2FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CKEK6VDE4C;
+				INFOPLIST_FILE = Tyun_AudioDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangyun.Tyun-AudioDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tyun_AudioDemo.app/Tyun_AudioDemo";
+			};
+			name = Release;
+		};
+		4A0EEDCC2046830A006D2FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CKEK6VDE4C;
+				INFOPLIST_FILE = Tyun_AudioDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangyun.Tyun-AudioDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tyun_AudioDemo;
+			};
+			name = Debug;
+		};
+		4A0EEDCD2046830A006D2FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CKEK6VDE4C;
+				INFOPLIST_FILE = Tyun_AudioDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangyun.Tyun-AudioDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tyun_AudioDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A0EED942046830A006D2FBC /* Build configuration list for PBXProject "Tyun_AudioDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0EEDC32046830A006D2FBC /* Debug */,
+				4A0EEDC42046830A006D2FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0EEDC52046830A006D2FBC /* Build configuration list for PBXNativeTarget "Tyun_AudioDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0EEDC62046830A006D2FBC /* Debug */,
+				4A0EEDC72046830A006D2FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0EEDC82046830A006D2FBC /* Build configuration list for PBXNativeTarget "Tyun_AudioDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0EEDC92046830A006D2FBC /* Debug */,
+				4A0EEDCA2046830A006D2FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0EEDCB2046830A006D2FBC /* Build configuration list for PBXNativeTarget "Tyun_AudioDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0EEDCC2046830A006D2FBC /* Debug */,
+				4A0EEDCD2046830A006D2FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A0EED912046830A006D2FBC /* Project object */;
+}

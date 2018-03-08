@@ -8,3 +8,4 @@
 ##项目6‘T_yunButtonBorder’介绍在button按下和抬起不同状态做操作
 ##项目‘TyunMediaPickerDemo’介绍了用系统自带工具类选择ipod里面的音乐并导出文件和选择相册里的视频文件
 ##项目“T_yunDemoTableUnfold”介绍了tableview里面cell内容自适应以及展开和折叠
+#项目“Tyun_AudioDemo”简单介绍了AVFoundation中播放本地音频已经简单的系统识别文字并语音播放
