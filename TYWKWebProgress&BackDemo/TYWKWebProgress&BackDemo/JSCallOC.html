@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi"/>
+    
+    <title>JSCallOC</title>
+    
+    <style>
+        *
+        {
+            //-webkit-tap-highlight-color: rgba(0,0,0,0);
+            text-decoration: none;
+        }
+    
+        html,body
+        {
+            -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+            -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+            -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+        }
+    
+        #div-a
+        {
+            background:#FBA;
+            color:#FFF;
+
+            border-radius: 25px 5px;
+        }
+
+
+    </style>
+
+</head>
+
+<body style="background:#CDE; color:#FFF">
+    
+   
+        <center>
+        
+        <div>
+            <font size="3" color="black">结果： <b id="result"> </b> </font>
+        </div>
+            
+            <input type="button" value="测试TY" onclick="tytest('111111')" />
+            <br/>
+
+            <input type="button" value="测试TY3" onclick="tytest3('333333')" />
+            <br/>
+
+            <br/>
+            <br/>
+            
+            
+        </center>
+    </div>
+
+<script type="text/javascript">
+    
+    function tytest() {
+    
+    // TYTEST
+        window.webkit.messageHandlers.TYTEST.postMessage({body: 'this is test'});
+    }
+    function tytest3() {
+    
+        window.webkit.messageHandlers.tytest3.postMessage({body: 'this istest 3'});
+    }
+    function tytest5(resultNumber) {
+    
+        alert(resultNumber);
+        document.getElementById("result").innerText = resultNumber;
+    }
+</script>
+
+</body>
+
+</html>

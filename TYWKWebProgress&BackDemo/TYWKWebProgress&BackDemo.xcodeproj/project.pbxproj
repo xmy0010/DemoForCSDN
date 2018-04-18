@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A15BBAB2085E1BC0035F45C /* JSCallOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 4A15BBAA2085E1BB0035F45C /* JSCallOC.html */; };
+		4A15BBAE2085E2250035F45C /* TYUIWebJSController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A15BBAD2085E2250035F45C /* TYUIWebJSController.m */; };
+		4A15BBB12085E2430035F45C /* TYWKWebJSController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A15BBB02085E2430035F45C /* TYWKWebJSController.m */; };
+		4A15BBB42085EDB70035F45C /* TYWeakScriptDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A15BBB32085EDB70035F45C /* TYWeakScriptDelegate.m */; };
 		4ABEB0FF20633AED001F2273 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEB0FE20633AED001F2273 /* AppDelegate.m */; };
 		4ABEB10220633AED001F2273 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEB10120633AED001F2273 /* ViewController.m */; };
 		4ABEB10520633AED001F2273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABEB10320633AED001F2273 /* Main.storyboard */; };
@@ -17,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A15BBAA2085E1BB0035F45C /* JSCallOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSCallOC.html; sourceTree = "<group>"; };
+		4A15BBAC2085E2250035F45C /* TYUIWebJSController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYUIWebJSController.h; sourceTree = "<group>"; };
+		4A15BBAD2085E2250035F45C /* TYUIWebJSController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYUIWebJSController.m; sourceTree = "<group>"; };
+		4A15BBAF2085E2430035F45C /* TYWKWebJSController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYWKWebJSController.h; sourceTree = "<group>"; };
+		4A15BBB02085E2430035F45C /* TYWKWebJSController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYWKWebJSController.m; sourceTree = "<group>"; };
+		4A15BBB22085EDB70035F45C /* TYWeakScriptDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYWeakScriptDelegate.h; sourceTree = "<group>"; };
+		4A15BBB32085EDB70035F45C /* TYWeakScriptDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYWeakScriptDelegate.m; sourceTree = "<group>"; };
 		4ABEB0FA20633AED001F2273 /* TYWKWebProgress&BackDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TYWKWebProgress&BackDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABEB0FD20633AED001F2273 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4ABEB0FE20633AED001F2273 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +72,7 @@
 		4ABEB0FC20633AED001F2273 /* TYWKWebProgress&BackDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4A15BBAA2085E1BB0035F45C /* JSCallOC.html */,
 				4ABEB0FD20633AED001F2273 /* AppDelegate.h */,
 				4ABEB0FE20633AED001F2273 /* AppDelegate.m */,
 				4ABEB10020633AED001F2273 /* ViewController.h */,
@@ -72,6 +84,12 @@
 				4ABEB10C20633AED001F2273 /* main.m */,
 				4ABEB11320633B6A001F2273 /* TYWKWebProgressController.h */,
 				4ABEB11420633B6A001F2273 /* TYWKWebProgressController.m */,
+				4A15BBAC2085E2250035F45C /* TYUIWebJSController.h */,
+				4A15BBAD2085E2250035F45C /* TYUIWebJSController.m */,
+				4A15BBAF2085E2430035F45C /* TYWKWebJSController.h */,
+				4A15BBB02085E2430035F45C /* TYWKWebJSController.m */,
+				4A15BBB22085EDB70035F45C /* TYWeakScriptDelegate.h */,
+				4A15BBB32085EDB70035F45C /* TYWeakScriptDelegate.m */,
 			);
 			path = "TYWKWebProgress&BackDemo";
 			sourceTree = "<group>";
@@ -137,6 +155,7 @@
 				4ABEB10A20633AED001F2273 /* LaunchScreen.storyboard in Resources */,
 				4ABEB10720633AED001F2273 /* Assets.xcassets in Resources */,
 				4ABEB10520633AED001F2273 /* Main.storyboard in Resources */,
+				4A15BBAB2085E1BC0035F45C /* JSCallOC.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +166,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A15BBB42085EDB70035F45C /* TYWeakScriptDelegate.m in Sources */,
 				4ABEB11520633B6A001F2273 /* TYWKWebProgressController.m in Sources */,
+				4A15BBAE2085E2250035F45C /* TYUIWebJSController.m in Sources */,
+				4A15BBB12085E2430035F45C /* TYWKWebJSController.m in Sources */,
 				4ABEB10220633AED001F2273 /* ViewController.m in Sources */,
 				4ABEB10D20633AED001F2273 /* main.m in Sources */,
 				4ABEB0FF20633AED001F2273 /* AppDelegate.m in Sources */,
