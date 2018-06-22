@@ -46,7 +46,7 @@
     //JS调用OC方法 此处实现
     self.context[@"tytest"] = ^(NSString *str){
        
-
+        NSLog(@"XXXXXXX");
 
         NSLog(@"%@", str);
     };

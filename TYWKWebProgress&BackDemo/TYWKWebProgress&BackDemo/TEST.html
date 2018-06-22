@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<br/>
+
+<input type="button" value="测试Timer" onclick="" />
+<br/>
+
+
+</body>
+
+<script type="text/javascript">
+       var time =0;
+       window.onload=function(){
+
+           count();
+
+       };
+
+    function count() {
+        <!--    document.getElementByIdx_x_x('m').innerHTML="计时已经开始！";-->
+        <!--    alert("xxxx")-->
+        setInterval( function(){
+            alert('十秒钟到！')
+            window.webkit.messageHandlers.tytest3.postMessage({body: 'this istest 3'});
+
+        } ,3000)
+    }
+
+
+
+</script>
+
+</html>

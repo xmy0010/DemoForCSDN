@@ -18,6 +18,7 @@
 		4ABEB10A20633AED001F2273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABEB10820633AED001F2273 /* LaunchScreen.storyboard */; };
 		4ABEB10D20633AED001F2273 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEB10C20633AED001F2273 /* main.m */; };
 		4ABEB11520633B6A001F2273 /* TYWKWebProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEB11420633B6A001F2273 /* TYWKWebProgressController.m */; };
+		4AC0F0C320B7A5EA00F31582 /* TEST.html in Resources */ = {isa = PBXBuildFile; fileRef = 4AC0F0C220B7A5EA00F31582 /* TEST.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		4ABEB10C20633AED001F2273 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4ABEB11320633B6A001F2273 /* TYWKWebProgressController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYWKWebProgressController.h; sourceTree = "<group>"; };
 		4ABEB11420633B6A001F2273 /* TYWKWebProgressController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYWKWebProgressController.m; sourceTree = "<group>"; };
+		4AC0F0C220B7A5EA00F31582 /* TEST.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TEST.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		4ABEB0FC20633AED001F2273 /* TYWKWebProgress&BackDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4AC0F0C220B7A5EA00F31582 /* TEST.html */,
 				4A15BBAA2085E1BB0035F45C /* JSCallOC.html */,
 				4ABEB0FD20633AED001F2273 /* AppDelegate.h */,
 				4ABEB0FE20633AED001F2273 /* AppDelegate.m */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ABEB10A20633AED001F2273 /* LaunchScreen.storyboard in Resources */,
+				4AC0F0C320B7A5EA00F31582 /* TEST.html in Resources */,
 				4ABEB10720633AED001F2273 /* Assets.xcassets in Resources */,
 				4ABEB10520633AED001F2273 /* Main.storyboard in Resources */,
 				4A15BBAB2085E1BC0035F45C /* JSCallOC.html in Resources */,
