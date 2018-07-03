@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A3CA71020CF61EB00BB7FCC /* NSString+EOCMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CA70F20CF61EB00BB7FCC /* NSString+EOCMethodSwizzling.m */; };
+		4A3CA71320CF782D00BB7FCC /* TYSmithPerson+SmithAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CA71220CF782D00BB7FCC /* TYSmithPerson+SmithAddition.m */; };
+		4A3CA71620CF794D00BB7FCC /* TYPersonModel+PersonAdittion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CA71520CF794D00BB7FCC /* TYPersonModel+PersonAdittion.m */; };
+		4A3CA71920CFBD7200BB7FCC /* TYNInitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CA71820CFBD7200BB7FCC /* TYNInitModel.m */; };
+		4A3CA71D20CFC19B00BB7FCC /* TYNDemoChapter_3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CA71C20CFC19B00BB7FCC /* TYNDemoChapter_3Controller.m */; };
+		4A3E654020E2302C00EA4A81 /* TYNDemoChapter_7Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E653F20E2302C00EA4A81 /* TYNDemoChapter_7Controller.m */; };
+		4A3E654320E3711E00EA4A81 /* NSTimer+TYNBlocksSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E654220E3711E00EA4A81 /* NSTimer+TYNBlocksSupport.m */; };
+		4A839F4320D8F1070059BC05 /* TYNProtocolModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A839F4220D8F1070059BC05 /* TYNProtocolModel.m */; };
+		4A839F4620D8F48B0059BC05 /* TYDemo3DelegateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A839F4520D8F48B0059BC05 /* TYDemo3DelegateController.m */; };
+		4A839F4D20DA24040059BC05 /* TYNDemoChapter_4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A839F4C20DA24040059BC05 /* TYNDemoChapter_4Controller.m */; };
+		4A839F5420DA48CB0059BC05 /* TYNDemoChapter_5Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A839F5320DA48CB0059BC05 /* TYNDemoChapter_5Controller.m */; };
+		4A839F5620DB41960059BC05 /* 资料 2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A839F5520DB41960059BC05 /* 资料 2.txt */; };
+		4A839F5D20DB81F90059BC05 /* TYNDemoChapter_6Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A839F5C20DB81F90059BC05 /* TYNDemoChapter_6Controller.m */; };
+		4A839F6020DC9DA70059BC05 /* TYNOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A839F5F20DC9DA70059BC05 /* TYNOperation.m */; };
+		4AA903A520C4D07800439F7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903A420C4D07800439F7E /* AppDelegate.m */; };
+		4AA903A820C4D07800439F7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903A720C4D07800439F7E /* ViewController.m */; };
+		4AA903AB20C4D07800439F7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA903A920C4D07800439F7E /* Main.storyboard */; };
+		4AA903AD20C4D07800439F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA903AC20C4D07800439F7E /* Assets.xcassets */; };
+		4AA903B020C4D07800439F7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA903AE20C4D07800439F7E /* LaunchScreen.storyboard */; };
+		4AA903B320C4D07800439F7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903B220C4D07800439F7E /* main.m */; };
+		4AA903BC20C4D2DE00439F7E /* TYBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903BB20C4D2DE00439F7E /* TYBaseModel.m */; };
+		4AA903BF20C4D32400439F7E /* TYDirectoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903BE20C4D32400439F7E /* TYDirectoryModel.m */; };
+		4AA903C620C4D90200439F7E /* TYBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903C320C4D90200439F7E /* TYBaseCell.m */; };
+		4AA903C720C4D90200439F7E /* TYBaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA903C420C4D90200439F7E /* TYBaseCell.xib */; };
+		4AA903CC20C4D93F00439F7E /* TYDirectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903CA20C4D93F00439F7E /* TYDirectorCell.m */; };
+		4AA903CD20C4D93F00439F7E /* TYDirectorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA903CB20C4D93F00439F7E /* TYDirectorCell.xib */; };
+		4AA903DE20C4DC5600439F7E /* NSString+TYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903D320C4DC5600439F7E /* NSString+TYExtension.m */; };
+		4AA903DF20C4DC5600439F7E /* UICollectionView+TYEmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903D520C4DC5600439F7E /* UICollectionView+TYEmptyData.m */; };
+		4AA903E020C4DC5600439F7E /* UIImage+info.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903D720C4DC5600439F7E /* UIImage+info.m */; };
+		4AA903E120C4DC5600439F7E /* UILabel+TYAttLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903D920C4DC5600439F7E /* UILabel+TYAttLine.m */; };
+		4AA903E220C4DC5600439F7E /* UITableView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903DB20C4DC5600439F7E /* UITableView+EmptyData.m */; };
+		4AA903E320C4DC5600439F7E /* UIView+XMYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903DD20C4DC5600439F7E /* UIView+XMYExtension.m */; };
+		4AA903EA20C4DF4900439F7E /* TYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903E520C4DF4900439F7E /* TYBaseViewController.m */; };
+		4AA903EB20C4DF4900439F7E /* TYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903E720C4DF4900439F7E /* TYNavigationController.m */; };
+		4AA903EC20C4DF4900439F7E /* TYBaseTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903E920C4DF4900439F7E /* TYBaseTableController.m */; };
+		4AA903EF20C4E09500439F7E /* TYDirectorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903EE20C4E09500439F7E /* TYDirectorTableViewController.m */; };
+		4AA903F320C4EF9B00439F7E /* TYChapterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903F120C4EF9B00439F7E /* TYChapterCell.m */; };
+		4AA903F420C4EF9B00439F7E /* TYChapterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA903F220C4EF9B00439F7E /* TYChapterCell.xib */; };
+		4AA903FB20C513BB00439F7E /* TYContentShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903FA20C513BB00439F7E /* TYContentShowViewController.m */; };
+		4AA903FF20C527E700439F7E /* TYTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA903FE20C527E700439F7E /* TYTool.m */; };
+		4AE0C4DB20C775A0000BBA96 /* TYDemoChapter_1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C4DA20C775A0000BBA96 /* TYDemoChapter_1Controller.m */; };
+		4AE0C4DF20C7CAB6000BBA96 /* TYDemoChapter_2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C4DE20C7CAB6000BBA96 /* TYDemoChapter_2Controller.m */; };
+		4AE0C4E220C7CAD6000BBA96 /* TYPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C4E120C7CAD6000BBA96 /* TYPersonModel.m */; };
+		4AE0C4E520C8D078000BBA96 /* TYSmithPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C4E420C8D078000BBA96 /* TYSmithPerson.m */; };
+		4AE0C4E820CA5C0E000BBA96 /* UIViewController+AccociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C4E720CA5C0E000BBA96 /* UIViewController+AccociatedObjects.m */; };
+		AE5A67E309CE19AC3BBA1BD7 /* libPods-TYDemoEffective-ObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 679A0E2BB6FA09F8E6C84B98 /* libPods-TYDemoEffective-ObjC.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A3CA70E20CF61EB00BB7FCC /* NSString+EOCMethodSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+EOCMethodSwizzling.h"; sourceTree = "<group>"; };
+		4A3CA70F20CF61EB00BB7FCC /* NSString+EOCMethodSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+EOCMethodSwizzling.m"; sourceTree = "<group>"; };
+		4A3CA71120CF782D00BB7FCC /* TYSmithPerson+SmithAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TYSmithPerson+SmithAddition.h"; sourceTree = "<group>"; };
+		4A3CA71220CF782D00BB7FCC /* TYSmithPerson+SmithAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TYSmithPerson+SmithAddition.m"; sourceTree = "<group>"; };
+		4A3CA71420CF794D00BB7FCC /* TYPersonModel+PersonAdittion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TYPersonModel+PersonAdittion.h"; sourceTree = "<group>"; };
+		4A3CA71520CF794D00BB7FCC /* TYPersonModel+PersonAdittion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TYPersonModel+PersonAdittion.m"; sourceTree = "<group>"; };
+		4A3CA71720CFBD7200BB7FCC /* TYNInitModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYNInitModel.h; sourceTree = "<group>"; };
+		4A3CA71820CFBD7200BB7FCC /* TYNInitModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYNInitModel.m; sourceTree = "<group>"; };
+		4A3CA71B20CFC19B00BB7FCC /* TYNDemoChapter_3Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYNDemoChapter_3Controller.h; sourceTree = "<group>"; };
+		4A3CA71C20CFC19B00BB7FCC /* TYNDemoChapter_3Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYNDemoChapter_3Controller.m; sourceTree = "<group>"; };
+		4A3E653E20E2302C00EA4A81 /* TYNDemoChapter_7Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYNDemoChapter_7Controller.h; sourceTree = "<group>"; };
+		4A3E653F20E2302C00EA4A81 /* TYNDemoChapter_7Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYNDemoChapter_7Controller.m; sourceTree = "<group>"; };
+		4A3E654120E3711E00EA4A81 /* NSTimer+TYNBlocksSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+TYNBlocksSupport.h"; sourceTree = "<group>"; };
+		4A3E654220E3711E00EA4A81 /* NSTimer+TYNBlocksSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+TYNBlocksSupport.m"; sourceTree = "<group>"; };
+		4A839F4120D8F1070059BC05 /* TYNProtocolModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYNProtocolModel.h; sourceTree = "<group>"; };
+		4A839F4220D8F1070059BC05 /* TYNProtocolModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYNProtocolModel.m; sourceTree = "<group>"; };
+		4A839F4420D8F48B0059BC05 /* TYDemo3DelegateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYDemo3DelegateController.h; sourceTree = "<group>"; };
+		4A839F4520D8F48B0059BC05 /* TYDemo3DelegateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYDemo3DelegateController.m; sourceTree = "<group>"; };
+		4A839F4B20DA24040059BC05 /* TYNDemoChapter_4Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYNDemoChapter_4Controller.h; sourceTree = "<group>"; };
+		4A839F4C20DA24040059BC05 /* TYNDemoChapter_4Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYNDemoChapter_4Controller.m; sourceTree = "<group>"; };
+		4A839F5220DA48CB0059BC05 /* TYNDemoChapter_5Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYNDemoChapter_5Controller.h; sourceTree = "<group>"; };
+		4A839F5320DA48CB0059BC05 /* TYNDemoChapter_5Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYNDemoChapter_5Controller.m; sourceTree = "<group>"; };
+		4A839F5520DB41960059BC05 /* 资料 2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "资料 2.txt"; sourceTree = "<group>"; };
+		4A839F5B20DB81F90059BC05 /* TYNDemoChapter_6Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYNDemoChapter_6Controller.h; sourceTree = "<group>"; };
+		4A839F5C20DB81F90059BC05 /* TYNDemoChapter_6Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYNDemoChapter_6Controller.m; sourceTree = "<group>"; };
+		4A839F5E20DC9DA70059BC05 /* TYNOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYNOperation.h; sourceTree = "<group>"; };
+		4A839F5F20DC9DA70059BC05 /* TYNOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYNOperation.m; sourceTree = "<group>"; };
+		4AA903A020C4D07800439F7E /* TYDemoEffective-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TYDemoEffective-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA903A320C4D07800439F7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AA903A420C4D07800439F7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AA903A620C4D07800439F7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AA903A720C4D07800439F7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AA903AA20C4D07800439F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AA903AC20C4D07800439F7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AA903AF20C4D07800439F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AA903B120C4D07800439F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA903B220C4D07800439F7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AA903BA20C4D2DE00439F7E /* TYBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYBaseModel.h; sourceTree = "<group>"; };
+		4AA903BB20C4D2DE00439F7E /* TYBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYBaseModel.m; sourceTree = "<group>"; };
+		4AA903BD20C4D32400439F7E /* TYDirectoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYDirectoryModel.h; sourceTree = "<group>"; };
+		4AA903BE20C4D32400439F7E /* TYDirectoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYDirectoryModel.m; sourceTree = "<group>"; };
+		4AA903C320C4D90200439F7E /* TYBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYBaseCell.m; sourceTree = "<group>"; };
+		4AA903C420C4D90200439F7E /* TYBaseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYBaseCell.xib; sourceTree = "<group>"; };
+		4AA903C520C4D90200439F7E /* TYBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBaseCell.h; sourceTree = "<group>"; };
+		4AA903C920C4D93F00439F7E /* TYDirectorCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYDirectorCell.h; sourceTree = "<group>"; };
+		4AA903CA20C4D93F00439F7E /* TYDirectorCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYDirectorCell.m; sourceTree = "<group>"; };
+		4AA903CB20C4D93F00439F7E /* TYDirectorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TYDirectorCell.xib; sourceTree = "<group>"; };
+		4AA903D020C4DAE200439F7E /* TYDemoEffectice-ObjC.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TYDemoEffectice-ObjC.pch"; sourceTree = "<group>"; };
+		4AA903D220C4DC5600439F7E /* NSString+TYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TYExtension.h"; sourceTree = "<group>"; };
+		4AA903D320C4DC5600439F7E /* NSString+TYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TYExtension.m"; sourceTree = "<group>"; };
+		4AA903D420C4DC5600439F7E /* UICollectionView+TYEmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+TYEmptyData.h"; sourceTree = "<group>"; };
+		4AA903D520C4DC5600439F7E /* UICollectionView+TYEmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+TYEmptyData.m"; sourceTree = "<group>"; };
+		4AA903D620C4DC5600439F7E /* UIImage+info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+info.h"; sourceTree = "<group>"; };
+		4AA903D720C4DC5600439F7E /* UIImage+info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+info.m"; sourceTree = "<group>"; };
+		4AA903D820C4DC5600439F7E /* UILabel+TYAttLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TYAttLine.h"; sourceTree = "<group>"; };
+		4AA903D920C4DC5600439F7E /* UILabel+TYAttLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TYAttLine.m"; sourceTree = "<group>"; };
+		4AA903DA20C4DC5600439F7E /* UITableView+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+EmptyData.h"; sourceTree = "<group>"; };
+		4AA903DB20C4DC5600439F7E /* UITableView+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+EmptyData.m"; sourceTree = "<group>"; };
+		4AA903DC20C4DC5600439F7E /* UIView+XMYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMYExtension.h"; sourceTree = "<group>"; };
+		4AA903DD20C4DC5600439F7E /* UIView+XMYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMYExtension.m"; sourceTree = "<group>"; };
+		4AA903E420C4DF4900439F7E /* TYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBaseViewController.h; sourceTree = "<group>"; };
+		4AA903E520C4DF4900439F7E /* TYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYBaseViewController.m; sourceTree = "<group>"; };
+		4AA903E620C4DF4900439F7E /* TYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYNavigationController.h; sourceTree = "<group>"; };
+		4AA903E720C4DF4900439F7E /* TYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYNavigationController.m; sourceTree = "<group>"; };
+		4AA903E820C4DF4900439F7E /* TYBaseTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBaseTableController.h; sourceTree = "<group>"; };
+		4AA903E920C4DF4900439F7E /* TYBaseTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYBaseTableController.m; sourceTree = "<group>"; };
+		4AA903ED20C4E09500439F7E /* TYDirectorTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYDirectorTableViewController.h; sourceTree = "<group>"; };
+		4AA903EE20C4E09500439F7E /* TYDirectorTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYDirectorTableViewController.m; sourceTree = "<group>"; };
+		4AA903F020C4EF9B00439F7E /* TYChapterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYChapterCell.h; sourceTree = "<group>"; };
+		4AA903F120C4EF9B00439F7E /* TYChapterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYChapterCell.m; sourceTree = "<group>"; };
+		4AA903F220C4EF9B00439F7E /* TYChapterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TYChapterCell.xib; sourceTree = "<group>"; };
+		4AA903F920C513BB00439F7E /* TYContentShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYContentShowViewController.h; sourceTree = "<group>"; };
+		4AA903FA20C513BB00439F7E /* TYContentShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYContentShowViewController.m; sourceTree = "<group>"; };
+		4AA903FD20C527E700439F7E /* TYTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYTool.h; sourceTree = "<group>"; };
+		4AA903FE20C527E700439F7E /* TYTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYTool.m; sourceTree = "<group>"; };
+		4AE0C4D920C775A0000BBA96 /* TYDemoChapter_1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYDemoChapter_1Controller.h; sourceTree = "<group>"; };
+		4AE0C4DA20C775A0000BBA96 /* TYDemoChapter_1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYDemoChapter_1Controller.m; sourceTree = "<group>"; };
+		4AE0C4DD20C7CAB6000BBA96 /* TYDemoChapter_2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYDemoChapter_2Controller.h; sourceTree = "<group>"; };
+		4AE0C4DE20C7CAB6000BBA96 /* TYDemoChapter_2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYDemoChapter_2Controller.m; sourceTree = "<group>"; };
+		4AE0C4E020C7CAD6000BBA96 /* TYPersonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYPersonModel.h; sourceTree = "<group>"; };
+		4AE0C4E120C7CAD6000BBA96 /* TYPersonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYPersonModel.m; sourceTree = "<group>"; };
+		4AE0C4E320C8D078000BBA96 /* TYSmithPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSmithPerson.h; sourceTree = "<group>"; };
+		4AE0C4E420C8D078000BBA96 /* TYSmithPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYSmithPerson.m; sourceTree = "<group>"; };
+		4AE0C4E620CA5C0E000BBA96 /* UIViewController+AccociatedObjects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AccociatedObjects.h"; sourceTree = "<group>"; };
+		4AE0C4E720CA5C0E000BBA96 /* UIViewController+AccociatedObjects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AccociatedObjects.m"; sourceTree = "<group>"; };
+		679A0E2BB6FA09F8E6C84B98 /* libPods-TYDemoEffective-ObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TYDemoEffective-ObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		791065757B4261214E97AC68 /* Pods-TYDemoEffective-ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYDemoEffective-ObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-TYDemoEffective-ObjC/Pods-TYDemoEffective-ObjC.release.xcconfig"; sourceTree = "<group>"; };
+		992C8207977FCCB13ACD93FF /* Pods-TYDemoEffective-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYDemoEffective-ObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TYDemoEffective-ObjC/Pods-TYDemoEffective-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AA9039D20C4D07800439F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5A67E309CE19AC3BBA1BD7 /* libPods-TYDemoEffective-ObjC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A3CA71A20CFC17900BB7FCC /* 第三章Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4A3CA71720CFBD7200BB7FCC /* TYNInitModel.h */,
+				4A3CA71820CFBD7200BB7FCC /* TYNInitModel.m */,
+				4A3CA71B20CFC19B00BB7FCC /* TYNDemoChapter_3Controller.h */,
+				4A3CA71C20CFC19B00BB7FCC /* TYNDemoChapter_3Controller.m */,
+				4A839F4120D8F1070059BC05 /* TYNProtocolModel.h */,
+				4A839F4220D8F1070059BC05 /* TYNProtocolModel.m */,
+			);
+			path = "第三章Demo";
+			sourceTree = "<group>";
+		};
+		4A3E653D20E2300900EA4A81 /* 第七章Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4A3E653E20E2302C00EA4A81 /* TYNDemoChapter_7Controller.h */,
+				4A3E653F20E2302C00EA4A81 /* TYNDemoChapter_7Controller.m */,
+				4A3E654120E3711E00EA4A81 /* NSTimer+TYNBlocksSupport.h */,
+				4A3E654220E3711E00EA4A81 /* NSTimer+TYNBlocksSupport.m */,
+			);
+			path = "第七章Demo";
+			sourceTree = "<group>";
+		};
+		4A839F4720DA23BF0059BC05 /* 第四章Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4A839F4420D8F48B0059BC05 /* TYDemo3DelegateController.h */,
+				4A839F4520D8F48B0059BC05 /* TYDemo3DelegateController.m */,
+				4A839F4B20DA24040059BC05 /* TYNDemoChapter_4Controller.h */,
+				4A839F4C20DA24040059BC05 /* TYNDemoChapter_4Controller.m */,
+			);
+			path = "第四章Demo";
+			sourceTree = "<group>";
+		};
+		4A839F4E20DA48590059BC05 /* 第五章Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4A839F5220DA48CB0059BC05 /* TYNDemoChapter_5Controller.h */,
+				4A839F5320DA48CB0059BC05 /* TYNDemoChapter_5Controller.m */,
+			);
+			path = "第五章Demo";
+			sourceTree = "<group>";
+		};
+		4A839F5720DB546B0059BC05 /* 第六章Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4A839F5B20DB81F90059BC05 /* TYNDemoChapter_6Controller.h */,
+				4A839F5C20DB81F90059BC05 /* TYNDemoChapter_6Controller.m */,
+				4A839F5E20DC9DA70059BC05 /* TYNOperation.h */,
+				4A839F5F20DC9DA70059BC05 /* TYNOperation.m */,
+			);
+			path = "第六章Demo";
+			sourceTree = "<group>";
+		};
+		4AA9039720C4D07700439F7E = {
+			isa = PBXGroup;
+			children = (
+				4AA903A220C4D07800439F7E /* TYDemoEffective-ObjC */,
+				4AA903A120C4D07800439F7E /* Products */,
+				E20EF29FAF71EB1236180694 /* Pods */,
+				92D62994E4F03EDAA15EFD7C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4AA903A120C4D07800439F7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AA903A020C4D07800439F7E /* TYDemoEffective-ObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AA903A220C4D07800439F7E /* TYDemoEffective-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				4A839F5520DB41960059BC05 /* 资料 2.txt */,
+				4AA903FC20C527D900439F7E /* Tools */,
+				4AA903D120C4DC5600439F7E /* Category */,
+				4AA903B120C4D07800439F7E /* Info.plist */,
+				4AA903CF20C4DA8E00439F7E /* AppDelegate */,
+				4AA903C220C4D8D000439F7E /* BaseClasses */,
+				4AA903C020C4D7F000439F7E /* Controllers */,
+				4AA903B920C4D2CB00439F7E /* Models */,
+				4AA903A920C4D07800439F7E /* Main.storyboard */,
+				4AA903AC20C4D07800439F7E /* Assets.xcassets */,
+				4AA903AE20C4D07800439F7E /* LaunchScreen.storyboard */,
+			);
+			path = "TYDemoEffective-ObjC";
+			sourceTree = "<group>";
+		};
+		4AA903B920C4D2CB00439F7E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4AA903CE20C4D9CA00439F7E /* 目录 */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4AA903C020C4D7F000439F7E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A3E653D20E2300900EA4A81 /* 第七章Demo */,
+				4A839F5720DB546B0059BC05 /* 第六章Demo */,
+				4A839F4E20DA48590059BC05 /* 第五章Demo */,
+				4A839F4720DA23BF0059BC05 /* 第四章Demo */,
+				4A3CA71A20CFC17900BB7FCC /* 第三章Demo */,
+				4AE0C4DC20C7CA9E000BBA96 /* 第二章Demo */,
+				4AE0C4D820C77559000BBA96 /* 第一章Demo */,
+				4AA903F520C512C900439F7E /* 内容 */,
+				4AA903C820C4D90F00439F7E /* 目录 */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4AA903C120C4D81D00439F7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4AA903C920C4D93F00439F7E /* TYDirectorCell.h */,
+				4AA903CA20C4D93F00439F7E /* TYDirectorCell.m */,
+				4AA903CB20C4D93F00439F7E /* TYDirectorCell.xib */,
+				4AA903F020C4EF9B00439F7E /* TYChapterCell.h */,
+				4AA903F120C4EF9B00439F7E /* TYChapterCell.m */,
+				4AA903F220C4EF9B00439F7E /* TYChapterCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4AA903C220C4D8D000439F7E /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				4AA903E820C4DF4900439F7E /* TYBaseTableController.h */,
+				4AA903E920C4DF4900439F7E /* TYBaseTableController.m */,
+				4AA903E420C4DF4900439F7E /* TYBaseViewController.h */,
+				4AA903E520C4DF4900439F7E /* TYBaseViewController.m */,
+				4AA903E620C4DF4900439F7E /* TYNavigationController.h */,
+				4AA903E720C4DF4900439F7E /* TYNavigationController.m */,
+				4AA903C520C4D90200439F7E /* TYBaseCell.h */,
+				4AA903C320C4D90200439F7E /* TYBaseCell.m */,
+				4AA903C420C4D90200439F7E /* TYBaseCell.xib */,
+				4AA903BA20C4D2DE00439F7E /* TYBaseModel.h */,
+				4AA903BB20C4D2DE00439F7E /* TYBaseModel.m */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		4AA903C820C4D90F00439F7E /* 目录 */ = {
+			isa = PBXGroup;
+			children = (
+				4AA903C120C4D81D00439F7E /* Views */,
+				4AA903A620C4D07800439F7E /* ViewController.h */,
+				4AA903A720C4D07800439F7E /* ViewController.m */,
+				4AA903ED20C4E09500439F7E /* TYDirectorTableViewController.h */,
+				4AA903EE20C4E09500439F7E /* TYDirectorTableViewController.m */,
+			);
+			path = "目录";
+			sourceTree = "<group>";
+		};
+		4AA903CE20C4D9CA00439F7E /* 目录 */ = {
+			isa = PBXGroup;
+			children = (
+				4AA903BD20C4D32400439F7E /* TYDirectoryModel.h */,
+				4AA903BE20C4D32400439F7E /* TYDirectoryModel.m */,
+			);
+			path = "目录";
+			sourceTree = "<group>";
+		};
+		4AA903CF20C4DA8E00439F7E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4AA903B220C4D07800439F7E /* main.m */,
+				4AA903A320C4D07800439F7E /* AppDelegate.h */,
+				4AA903A420C4D07800439F7E /* AppDelegate.m */,
+				4AA903D020C4DAE200439F7E /* TYDemoEffectice-ObjC.pch */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4AA903D120C4DC5600439F7E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4AA903D220C4DC5600439F7E /* NSString+TYExtension.h */,
+				4AA903D320C4DC5600439F7E /* NSString+TYExtension.m */,
+				4AA903D420C4DC5600439F7E /* UICollectionView+TYEmptyData.h */,
+				4AA903D520C4DC5600439F7E /* UICollectionView+TYEmptyData.m */,
+				4AA903D620C4DC5600439F7E /* UIImage+info.h */,
+				4AA903D720C4DC5600439F7E /* UIImage+info.m */,
+				4AA903D820C4DC5600439F7E /* UILabel+TYAttLine.h */,
+				4AA903D920C4DC5600439F7E /* UILabel+TYAttLine.m */,
+				4AA903DA20C4DC5600439F7E /* UITableView+EmptyData.h */,
+				4AA903DB20C4DC5600439F7E /* UITableView+EmptyData.m */,
+				4AA903DC20C4DC5600439F7E /* UIView+XMYExtension.h */,
+				4AA903DD20C4DC5600439F7E /* UIView+XMYExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4AA903F520C512C900439F7E /* 内容 */ = {
+			isa = PBXGroup;
+			children = (
+				4AA903F920C513BB00439F7E /* TYContentShowViewController.h */,
+				4AA903FA20C513BB00439F7E /* TYContentShowViewController.m */,
+			);
+			path = "内容";
+			sourceTree = "<group>";
+		};
+		4AA903FC20C527D900439F7E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4AA903FD20C527E700439F7E /* TYTool.h */,
+				4AA903FE20C527E700439F7E /* TYTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		4AE0C4D820C77559000BBA96 /* 第一章Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0C4D920C775A0000BBA96 /* TYDemoChapter_1Controller.h */,
+				4AE0C4DA20C775A0000BBA96 /* TYDemoChapter_1Controller.m */,
+			);
+			path = "第一章Demo";
+			sourceTree = "<group>";
+		};
+		4AE0C4DC20C7CA9E000BBA96 /* 第二章Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0C4DD20C7CAB6000BBA96 /* TYDemoChapter_2Controller.h */,
+				4AE0C4DE20C7CAB6000BBA96 /* TYDemoChapter_2Controller.m */,
+				4AE0C4E020C7CAD6000BBA96 /* TYPersonModel.h */,
+				4AE0C4E120C7CAD6000BBA96 /* TYPersonModel.m */,
+				4AE0C4E320C8D078000BBA96 /* TYSmithPerson.h */,
+				4AE0C4E420C8D078000BBA96 /* TYSmithPerson.m */,
+				4AE0C4E620CA5C0E000BBA96 /* UIViewController+AccociatedObjects.h */,
+				4AE0C4E720CA5C0E000BBA96 /* UIViewController+AccociatedObjects.m */,
+				4A3CA70E20CF61EB00BB7FCC /* NSString+EOCMethodSwizzling.h */,
+				4A3CA70F20CF61EB00BB7FCC /* NSString+EOCMethodSwizzling.m */,
+				4A3CA71120CF782D00BB7FCC /* TYSmithPerson+SmithAddition.h */,
+				4A3CA71220CF782D00BB7FCC /* TYSmithPerson+SmithAddition.m */,
+				4A3CA71420CF794D00BB7FCC /* TYPersonModel+PersonAdittion.h */,
+				4A3CA71520CF794D00BB7FCC /* TYPersonModel+PersonAdittion.m */,
+			);
+			path = "第二章Demo";
+			sourceTree = "<group>";
+		};
+		92D62994E4F03EDAA15EFD7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				679A0E2BB6FA09F8E6C84B98 /* libPods-TYDemoEffective-ObjC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E20EF29FAF71EB1236180694 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				992C8207977FCCB13ACD93FF /* Pods-TYDemoEffective-ObjC.debug.xcconfig */,
+				791065757B4261214E97AC68 /* Pods-TYDemoEffective-ObjC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AA9039F20C4D07800439F7E /* TYDemoEffective-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA903B620C4D07800439F7E /* Build configuration list for PBXNativeTarget "TYDemoEffective-ObjC" */;
+			buildPhases = (
+				D7DE315F5C82D5753679A98D /* [CP] Check Pods Manifest.lock */,
+				4AA9039C20C4D07800439F7E /* Sources */,
+				4AA9039D20C4D07800439F7E /* Frameworks */,
+				4AA9039E20C4D07800439F7E /* Resources */,
+				2CDCD8E1C42E5280FB863C83 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TYDemoEffective-ObjC";
+			productName = "TYDemoEffective-ObjC";
+			productReference = 4AA903A020C4D07800439F7E /* TYDemoEffective-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AA9039820C4D07700439F7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = tangyun;
+				TargetAttributes = {
+					4AA9039F20C4D07800439F7E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4AA9039B20C4D07700439F7E /* Build configuration list for PBXProject "TYDemoEffective-ObjC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AA9039720C4D07700439F7E;
+			productRefGroup = 4AA903A120C4D07800439F7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AA9039F20C4D07800439F7E /* TYDemoEffective-ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AA9039E20C4D07800439F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA903F420C4EF9B00439F7E /* TYChapterCell.xib in Resources */,
+				4AA903B020C4D07800439F7E /* LaunchScreen.storyboard in Resources */,
+				4AA903AD20C4D07800439F7E /* Assets.xcassets in Resources */,
+				4AA903AB20C4D07800439F7E /* Main.storyboard in Resources */,
+				4AA903C720C4D90200439F7E /* TYBaseCell.xib in Resources */,
+				4AA903CD20C4D93F00439F7E /* TYDirectorCell.xib in Resources */,
+				4A839F5620DB41960059BC05 /* 资料 2.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CDCD8E1C42E5280FB863C83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TYDemoEffective-ObjC/Pods-TYDemoEffective-ObjC-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TYDemoEffective-ObjC/Pods-TYDemoEffective-ObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7DE315F5C82D5753679A98D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TYDemoEffective-ObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AA9039C20C4D07800439F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA903EF20C4E09500439F7E /* TYDirectorTableViewController.m in Sources */,
+				4AA903A820C4D07800439F7E /* ViewController.m in Sources */,
+				4AA903E120C4DC5600439F7E /* UILabel+TYAttLine.m in Sources */,
+				4A3CA71320CF782D00BB7FCC /* TYSmithPerson+SmithAddition.m in Sources */,
+				4A3CA71D20CFC19B00BB7FCC /* TYNDemoChapter_3Controller.m in Sources */,
+				4A839F6020DC9DA70059BC05 /* TYNOperation.m in Sources */,
+				4AA903BF20C4D32400439F7E /* TYDirectoryModel.m in Sources */,
+				4AA903BC20C4D2DE00439F7E /* TYBaseModel.m in Sources */,
+				4A3E654020E2302C00EA4A81 /* TYNDemoChapter_7Controller.m in Sources */,
+				4AE0C4E820CA5C0E000BBA96 /* UIViewController+AccociatedObjects.m in Sources */,
+				4AA903CC20C4D93F00439F7E /* TYDirectorCell.m in Sources */,
+				4AA903FF20C527E700439F7E /* TYTool.m in Sources */,
+				4AA903C620C4D90200439F7E /* TYBaseCell.m in Sources */,
+				4AA903EC20C4DF4900439F7E /* TYBaseTableController.m in Sources */,
+				4AA903F320C4EF9B00439F7E /* TYChapterCell.m in Sources */,
+				4A3CA71620CF794D00BB7FCC /* TYPersonModel+PersonAdittion.m in Sources */,
+				4AE0C4DF20C7CAB6000BBA96 /* TYDemoChapter_2Controller.m in Sources */,
+				4AE0C4E520C8D078000BBA96 /* TYSmithPerson.m in Sources */,
+				4A839F5D20DB81F90059BC05 /* TYNDemoChapter_6Controller.m in Sources */,
+				4AA903B320C4D07800439F7E /* main.m in Sources */,
+				4A3CA71020CF61EB00BB7FCC /* NSString+EOCMethodSwizzling.m in Sources */,
+				4AA903DF20C4DC5600439F7E /* UICollectionView+TYEmptyData.m in Sources */,
+				4AA903E020C4DC5600439F7E /* UIImage+info.m in Sources */,
+				4AA903DE20C4DC5600439F7E /* NSString+TYExtension.m in Sources */,
+				4AA903FB20C513BB00439F7E /* TYContentShowViewController.m in Sources */,
+				4AA903A520C4D07800439F7E /* AppDelegate.m in Sources */,
+				4AA903E320C4DC5600439F7E /* UIView+XMYExtension.m in Sources */,
+				4AA903EA20C4DF4900439F7E /* TYBaseViewController.m in Sources */,
+				4AA903EB20C4DF4900439F7E /* TYNavigationController.m in Sources */,
+				4A839F5420DA48CB0059BC05 /* TYNDemoChapter_5Controller.m in Sources */,
+				4A839F4620D8F48B0059BC05 /* TYDemo3DelegateController.m in Sources */,
+				4A839F4320D8F1070059BC05 /* TYNProtocolModel.m in Sources */,
+				4AA903E220C4DC5600439F7E /* UITableView+EmptyData.m in Sources */,
+				4AE0C4DB20C775A0000BBA96 /* TYDemoChapter_1Controller.m in Sources */,
+				4AE0C4E220C7CAD6000BBA96 /* TYPersonModel.m in Sources */,
+				4A839F4D20DA24040059BC05 /* TYNDemoChapter_4Controller.m in Sources */,
+				4A3E654320E3711E00EA4A81 /* NSTimer+TYNBlocksSupport.m in Sources */,
+				4A3CA71920CFBD7200BB7FCC /* TYNInitModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AA903A920C4D07800439F7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA903AA20C4D07800439F7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AA903AE20C4D07800439F7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA903AF20C4D07800439F7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AA903B420C4D07800439F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4AA903B520C4D07800439F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AA903B720C4D07800439F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992C8207977FCCB13ACD93FF /* Pods-TYDemoEffective-ObjC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CKEK6VDE4C;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TYDemoEffective-ObjC/AppDelegate/TYDemoEffectice-ObjC.pch";
+				INFOPLIST_FILE = "TYDemoEffective-ObjC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangyun.TYDemoEffective-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AA903B820C4D07800439F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 791065757B4261214E97AC68 /* Pods-TYDemoEffective-ObjC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CKEK6VDE4C;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TYDemoEffective-ObjC/AppDelegate/TYDemoEffectice-ObjC.pch";
+				INFOPLIST_FILE = "TYDemoEffective-ObjC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangyun.TYDemoEffective-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AA9039B20C4D07700439F7E /* Build configuration list for PBXProject "TYDemoEffective-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA903B420C4D07800439F7E /* Debug */,
+				4AA903B520C4D07800439F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA903B620C4D07800439F7E /* Build configuration list for PBXNativeTarget "TYDemoEffective-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA903B720C4D07800439F7E /* Debug */,
+				4AA903B820C4D07800439F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AA9039820C4D07700439F7E /* Project object */;
+}

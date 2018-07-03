@@ -1,0 +1,38 @@
+//
+//  TYDemoEffectice-ObjC.pch
+//  TYDemoEffective-ObjC
+//
+//  Created by T_yun on 2018/6/4.
+//  Copyright © 2018年 tangyun. All rights reserved.
+//
+
+#ifndef TYDemoEffectice_ObjC_pch
+#define TYDemoEffectice_ObjC_pch
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#import <SDCycleScrollView.h>
+#import <SVProgressHUD.h>
+
+#import "TYTool.h"
+#import "NSString+TYExtension.h"
+#import "UIView+XMYExtension.h"
+
+
+#import "TYDirectoryModel.h"
+
+//宏定义
+#define kSCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+#define kSCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+
+#define HexRGB(hex) [UIColor colorWithRed:((float)((hex & 0xFF0000) >> 16)) / 255.0 green:((float)((hex & 0xFF00) >> 8)) / 255.0 blue:((float)(hex & 0xFF)) / 255.0 alpha:1]
+
+#define CORLOR_3 HexRGB(0x333333)
+
+#define CORLOR_BG HexRGB(0xf1f1f1)
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#endif /* TYDemoEffectice_ObjC_pch */
