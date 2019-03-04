@@ -9,6 +9,26 @@
 #import <Foundation/Foundation.h>
 #import <IGListKit/IGListDiffable.h>
 
+//NS_OPTIONS(NSUInteger, XMYSectionType){
+//    XMYSectionTypeImage,
+//    XMYSectionTypeTitle
+//};
+//NS_OPTIONS(NSUInteger, XMYImageItemType){
+//    XMYImageItemTypeSquareBig = 0,
+//    XMYImageItemTypeSquareSmall,
+//    XMYImageItemTypeSquareRectangle
+//};
+
+typedef enum:NSUInteger {
+    XMYSectionTypeImage,
+    XMYSectionTypeTitle
+} XMYSectionType;
+
+typedef enum: NSUInteger {
+    XMYImageItemTypeSquareBig = 0,
+    XMYImageItemTypeSquareSmall,
+    XMYImageItemTypeSquareRectangle
+} XMYImageItemType;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -18,10 +38,23 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+@interface ImageItemModel : NSObject <IGListDiffable>
+
+@property (nonatomic, assign)  XMYImageItemType type;
+@property (nonatomic, copy) NSString *title;
+@property (nonatomic, copy) NSString *detail;
+@property (nonatomic, copy) NSString *imageUrl;
+
+
+@end
+
+
 @interface ListSectionModel : NSObject <IGListDiffable>
 
+@property (nonatomic, assign)  XMYSectionType type;
 @property (nonatomic, copy) NSString *title;
-@property (nonatomic, copy) NSArray <ListItemModel *> *data;
+@property (nonatomic, copy) NSArray  *data;
+
 
 @end
 

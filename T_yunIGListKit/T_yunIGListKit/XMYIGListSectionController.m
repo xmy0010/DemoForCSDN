@@ -23,6 +23,8 @@
 - (instancetype)init {
     if (self = [super init]) {
         self.supplementaryViewSource = self;
+        self.minimumLineSpacing = 5;
+        self.minimumInteritemSpacing = 5;
     }
     return self;
 }
@@ -37,7 +39,7 @@
 
 - (CGSize)sizeForItemAtIndex:(NSInteger)index {
     
-    return CGSizeMake([UIScreen mainScreen].bounds.size.width / 4, 100);
+    return CGSizeMake([UIScreen mainScreen].bounds.size.width / 4 - 1, 100);
 }
 
 - (UICollectionViewCell *)cellForItemAtIndex:(NSInteger)index {

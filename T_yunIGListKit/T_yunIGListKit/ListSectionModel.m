@@ -21,6 +21,21 @@
 
 @end
 
+@implementation ImageItemModel
+
+- (id<NSObject>)diffIdentifier {
+    return self;
+}
+
+- (BOOL)isEqualToDiffableObject:(nullable id<IGListDiffable>)object {
+    ImageItemModel *model = (ImageItemModel *)object;
+
+    return self.title == model.title && self.detail == model.detail && self.imageUrl == model.imageUrl;
+}
+
+
+@end
+
 @implementation ListSectionModel
 
 - (id<NSObject>)diffIdentifier {
@@ -30,7 +45,7 @@
 - (BOOL)isEqualToDiffableObject:(id<IGListDiffable>)object {
     ListSectionModel *model = (ListSectionModel *)object;
     __block BOOL isEqual = YES;
-    isEqual = self.title == model.title && self.data.count == model.data.count;
+    isEqual = self.title == model.title && self.data.count == model.data.count && self.type == model.type;
     if (isEqual) {
         [self.data enumerateObjectsUsingBlock:^(ListItemModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             isEqual = [obj isEqualToDiffableObject:model.data[idx]];

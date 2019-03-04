@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A40BB8E22292D5100CBF35E /* XMYIGListImageSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A40BB8D22292D5100CBF35E /* XMYIGListImageSectionController.m */; };
+		4A40BB9722292EE600CBF35E /* XMYImageCell_ square.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A40BB9522292EE600CBF35E /* XMYImageCell_ square.m */; };
+		4A40BB9822292EE600CBF35E /* XMYImageCell_ square.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A40BB9622292EE600CBF35E /* XMYImageCell_ square.xib */; };
+		4A40BB9C22292F0400CBF35E /* XMYImageCell_ rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A40BB9A22292F0400CBF35E /* XMYImageCell_ rectangle.m */; };
+		4A40BB9D22292F0400CBF35E /* XMYImageCell_ rectangle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A40BB9B22292F0400CBF35E /* XMYImageCell_ rectangle.xib */; };
 		4A476BF221E5CE8C00E19107 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A476BF121E5CE8C00E19107 /* AppDelegate.m */; };
 		4A476BF521E5CE8C00E19107 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A476BF421E5CE8C00E19107 /* ViewController.m */; };
 		4A476BF821E5CE8C00E19107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A476BF621E5CE8C00E19107 /* Main.storyboard */; };
@@ -22,6 +27,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A40BB8C22292D5100CBF35E /* XMYIGListImageSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMYIGListImageSectionController.h; sourceTree = "<group>"; };
+		4A40BB8D22292D5100CBF35E /* XMYIGListImageSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMYIGListImageSectionController.m; sourceTree = "<group>"; };
+		4A40BB9422292EE600CBF35E /* XMYImageCell_ square.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMYImageCell_ square.h"; sourceTree = "<group>"; };
+		4A40BB9522292EE600CBF35E /* XMYImageCell_ square.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XMYImageCell_ square.m"; sourceTree = "<group>"; };
+		4A40BB9622292EE600CBF35E /* XMYImageCell_ square.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "XMYImageCell_ square.xib"; sourceTree = "<group>"; };
+		4A40BB9922292F0400CBF35E /* XMYImageCell_ rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMYImageCell_ rectangle.h"; sourceTree = "<group>"; };
+		4A40BB9A22292F0400CBF35E /* XMYImageCell_ rectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XMYImageCell_ rectangle.m"; sourceTree = "<group>"; };
+		4A40BB9B22292F0400CBF35E /* XMYImageCell_ rectangle.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "XMYImageCell_ rectangle.xib"; sourceTree = "<group>"; };
 		4A476BED21E5CE8C00E19107 /* T_yunIGListKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T_yunIGListKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A476BF021E5CE8C00E19107 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A476BF121E5CE8C00E19107 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,6 +119,14 @@
 				4A476C0A21E5D26800E19107 /* ListSectionModel.m */,
 				4A476C0C21E5D2EB00E19107 /* XMYIGListSectionController.h */,
 				4A476C0D21E5D2EB00E19107 /* XMYIGListSectionController.m */,
+				4A40BB8C22292D5100CBF35E /* XMYIGListImageSectionController.h */,
+				4A40BB8D22292D5100CBF35E /* XMYIGListImageSectionController.m */,
+				4A40BB9422292EE600CBF35E /* XMYImageCell_ square.h */,
+				4A40BB9522292EE600CBF35E /* XMYImageCell_ square.m */,
+				4A40BB9622292EE600CBF35E /* XMYImageCell_ square.xib */,
+				4A40BB9922292F0400CBF35E /* XMYImageCell_ rectangle.h */,
+				4A40BB9A22292F0400CBF35E /* XMYImageCell_ rectangle.m */,
+				4A40BB9B22292F0400CBF35E /* XMYImageCell_ rectangle.xib */,
 			);
 			path = T_yunIGListKit;
 			sourceTree = "<group>";
@@ -179,6 +200,8 @@
 				4A476C1521E5D6E400E19107 /* LWorkTableCommonHeader.xib in Resources */,
 				4A476BFD21E5CE8E00E19107 /* LaunchScreen.storyboard in Resources */,
 				4A476BFA21E5CE8E00E19107 /* Assets.xcassets in Resources */,
+				4A40BB9D22292F0400CBF35E /* XMYImageCell_ rectangle.xib in Resources */,
+				4A40BB9822292EE600CBF35E /* XMYImageCell_ square.xib in Resources */,
 				4A476BF821E5CE8C00E19107 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,9 +241,12 @@
 				4A476C1121E5D5B600E19107 /* LWorkTableButtonCell.m in Sources */,
 				4A476BF521E5CE8C00E19107 /* ViewController.m in Sources */,
 				4A476C0E21E5D2EB00E19107 /* XMYIGListSectionController.m in Sources */,
+				4A40BB9722292EE600CBF35E /* XMYImageCell_ square.m in Sources */,
 				4A476C0021E5CE8E00E19107 /* main.m in Sources */,
+				4A40BB9C22292F0400CBF35E /* XMYImageCell_ rectangle.m in Sources */,
 				4A476C1621E5D6E400E19107 /* LWorkTableCommonHeader.m in Sources */,
 				4A476C0B21E5D26800E19107 /* ListSectionModel.m in Sources */,
+				4A40BB8E22292D5100CBF35E /* XMYIGListImageSectionController.m in Sources */,
 				4A476BF221E5CE8C00E19107 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
