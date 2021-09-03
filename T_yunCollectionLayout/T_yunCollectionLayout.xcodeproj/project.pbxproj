@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A048E1B26E20BBB004297AD /* MainEntranceItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A048E1726E20BBB004297AD /* MainEntranceItemCell.m */; };
+		4A048E1C26E20BBB004297AD /* MainEntranceCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A048E1826E20BBB004297AD /* MainEntranceCellLayout.m */; };
+		4A048E1D26E20BBB004297AD /* MainEntranceItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A048E1A26E20BBB004297AD /* MainEntranceItemCell.xib */; };
 		4A802999222E0DA10040EF06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A802998222E0DA10040EF06 /* AppDelegate.m */; };
 		4A80299C222E0DA10040EF06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A80299B222E0DA10040EF06 /* ViewController.m */; };
 		4A80299F222E0DA20040EF06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A80299D222E0DA20040EF06 /* Main.storyboard */; };
@@ -16,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A048E1626E20BBB004297AD /* MainEntranceItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainEntranceItemCell.h; sourceTree = "<group>"; };
+		4A048E1726E20BBB004297AD /* MainEntranceItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainEntranceItemCell.m; sourceTree = "<group>"; };
+		4A048E1826E20BBB004297AD /* MainEntranceCellLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainEntranceCellLayout.m; sourceTree = "<group>"; };
+		4A048E1926E20BBB004297AD /* MainEntranceCellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainEntranceCellLayout.h; sourceTree = "<group>"; };
+		4A048E1A26E20BBB004297AD /* MainEntranceItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainEntranceItemCell.xib; sourceTree = "<group>"; };
 		4A802994222E0DA10040EF06 /* T_yunCollectionLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T_yunCollectionLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A802997222E0DA10040EF06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A802998222E0DA10040EF06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +47,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A048E1526E20BA6004297AD /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				4A048E1926E20BBB004297AD /* MainEntranceCellLayout.h */,
+				4A048E1826E20BBB004297AD /* MainEntranceCellLayout.m */,
+				4A048E1626E20BBB004297AD /* MainEntranceItemCell.h */,
+				4A048E1726E20BBB004297AD /* MainEntranceItemCell.m */,
+				4A048E1A26E20BBB004297AD /* MainEntranceItemCell.xib */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		4A80298B222E0DA10040EF06 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +78,7 @@
 		4A802996222E0DA10040EF06 /* T_yunCollectionLayout */ = {
 			isa = PBXGroup;
 			children = (
+				4A048E1526E20BA6004297AD /* New Group */,
 				4A802997222E0DA10040EF06 /* AppDelegate.h */,
 				4A802998222E0DA10040EF06 /* AppDelegate.m */,
 				4A80299A222E0DA10040EF06 /* ViewController.h */,
@@ -129,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A8029A4222E0DA30040EF06 /* LaunchScreen.storyboard in Resources */,
+				4A048E1D26E20BBB004297AD /* MainEntranceItemCell.xib in Resources */,
 				4A8029A1222E0DA30040EF06 /* Assets.xcassets in Resources */,
 				4A80299F222E0DA20040EF06 /* Main.storyboard in Resources */,
 			);
@@ -142,7 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A80299C222E0DA10040EF06 /* ViewController.m in Sources */,
+				4A048E1B26E20BBB004297AD /* MainEntranceItemCell.m in Sources */,
 				4A8029A7222E0DA30040EF06 /* main.m in Sources */,
+				4A048E1C26E20BBB004297AD /* MainEntranceCellLayout.m in Sources */,
 				4A802999222E0DA10040EF06 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S8KDN63PSG;
+				DEVELOPMENT_TEAM = P7VM5F7Z6Z;
 				INFOPLIST_FILE = T_yunCollectionLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S8KDN63PSG;
+				DEVELOPMENT_TEAM = P7VM5F7Z6Z;
 				INFOPLIST_FILE = T_yunCollectionLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
