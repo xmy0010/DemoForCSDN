@@ -9,6 +9,7 @@
 #import "TYWKWebJSController.h"
 #import <WebKit/WebKit.h>
 #import "TYWeakScriptDelegate.h"
+#import "TYTextViewController.h"
 
 
 @interface TYWKWebJSController ()<WKScriptMessageHandler, WKNavigationDelegate, WKUIDelegate>
@@ -31,6 +32,7 @@
     // 我们可以在WKScriptMessageHandler代理中接收到
     [config.userContentController addScriptMessageHandler:[[TYWeakScriptDelegate alloc] initWithDelegate:self] name:@"TYTEST"];
     [config.userContentController addScriptMessageHandler:[[TYWeakScriptDelegate alloc] initWithDelegate:self] name:@"tytest3"];
+    [config.userContentController addScriptMessageHandler:[[TYWeakScriptDelegate alloc] initWithDelegate:self] name:@"tyToController"];
 
     
     
@@ -62,13 +64,25 @@
         // 打印所传过来的参数，只支持NSNumber, NSString, NSDate, NSArray,
         // NSDictionary, and NSNull类型
         NSLog(@"%@==%@",message.name, message.body);
+    if ([message.name isEqualToString:@"tyToController"]) {
+        //js调用OC中 去新的页面 拿到结果之后销毁页面并回传JS
+        TYTextViewController *vc = [TYTextViewController controller];
+        vc.resultBlock = ^(NSString *  result) {
+            NSString *tytest =[NSString stringWithFormat:@"tytest3(%@)",result];
+            [self.webView evaluateJavaScript:tytest completionHandler:^(id _Nullable result, NSError * _Nullable error) {
+                
+                NSLog(@"");
+            }];
+        };
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 //OC调用JS
 - (void)onCallJS{
     
     //调用JS方法
-    NSString *tytest =[NSString stringWithFormat:@"tytest5(6)"] ;
+    NSString *tytest = [NSString stringWithFormat:@"tytest5(5)"] ;
     [self.webView evaluateJavaScript:tytest completionHandler:^(id _Nullable result, NSError * _Nullable error) {
         
         NSLog(@"");

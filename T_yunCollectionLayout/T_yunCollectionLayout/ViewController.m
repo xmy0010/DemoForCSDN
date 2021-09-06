@@ -49,6 +49,7 @@
     CGFloat itemHeight = MainEntranceItemHeight;
     _layout.columnCount = 5;
     _layout.rowCount = 3;
+    ///注意此处itemSize的宽根据每列有多少个item计算得出
     _layout.itemSize = CGSizeMake(SCREEN_WIDTH /5.0, itemHeight);
     _layout.footerReferenceSize  = CGSizeMake(0.1, 0.1);
     _layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;

@@ -49,6 +49,9 @@
             <input type="button" value="测试TY3" onclick="tytest3('333333')" />
             <br/>
 
+            
+            <input type="button" value="跳转原生输入页面" onclick="tyToController('111111')" />
+            <br/>
             <br/>
             <br/>
             
@@ -66,10 +69,14 @@
     // TYTEST
         window.webkit.messageHandlers.TYTEST.postMessage({body: 'this is test'});
     }
-    function tytest3() {
-    
-        window.webkit.messageHandlers.tytest3.postMessage({body: 'this istest 3'});
+    function tytest3(someString) {
+        alert(someString);
     }
+    
+    function tyToController(someString) {
+        window.webkit.messageHandlers.tyToController.postMessage({body: 'this is test tyToController'});
+    }
+    
     function tytest5(resultNumber) {
     
         alert(resultNumber);
