@@ -12,3 +12,5 @@
 ##项目“TYGestureLockDemo”写了一个常见的各个手势实现，然后写了一个手势密码锁的Demo
 ##项目“TYWKWebProgress&BackDemo”实现WKWebView加载网页进度条，已经返回和退出当前网页
 1
+##项目“RevealDemo”通过Reveal库实现真机上查看UI层级
+##项目“RevealDemo”通过Reveal库实现真机上查看UI层级

@@ -45,21 +45,62 @@
  **/
 ///确定按钮点击
 - (IBAction)onSureBtn:(id)sender {
-    
     NSString *result = self.textView.text;
     if (result.length == 0) {
         result = @"";
     }
+    __weak typeof(self) weakSelf = self;
     if (self.resultBlock) {
         [self.navigationController popViewControllerAnimated:YES];
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+        //1.Timer selector
+//        [NSTimer scheduledTimerWithTimeInterval:10 target:self selector:@selector(doResultBlcok) userInfo:nil repeats:NO]; //正常执行
+        
+        //1.Timer blcok
+        [NSTimer scheduledTimerWithTimeInterval:2 repeats:NO block:^(NSTimer * _Nonnull timer) {
+            //AF等实现（当循序引用时）
+            TYTextViewController *strong = weakSelf;
+            if (strong) {
+                NSLog(@"block执行");
+                strong.resultBlock(result);
+            }
+            
             NSLog(@"block执行");
-            self.resultBlock(result);
-        });
-//        [self.navigationController popViewControllerAnimated:YES];
+            __strong typeof(self) strongSelf = weakSelf;
+//            strongSelf.resultBlock(result); //崩溃
+//            weakSelf.resultBlock(result); //崩溃
+//            self.resultBlock(result); //正常执行
+        }];
+        
+//        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//            __strong typeof(self) strongSelf = weakSelf;
+//            NSLog(@"block执行");
+//                    strongSelf.resultBlock(result); //崩溃
+//                    weakSelf.resultBlock(result); //崩溃
+//                    self.resultBlock(result); //正常执行
+//        });
     }
 }
 
+/**
+ *正常多线程循环引用且
+ *1.weak-strong dance
+ *
+ *
+ *
+ **
+ **
+ **
+ **/
+
+- (void)doResultBlcok {
+    NSString *result = self.textView.text;
+    if (result.length == 0) {
+        result = @"";
+    }
+    NSLog(@"block执行");
+    self.resultBlock(result);
+}
 
 
 -(void)dealloc {
