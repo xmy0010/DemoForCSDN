@@ -28,8 +28,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.view addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(endEdit)]];
 }
 
+- (void)endEdit {
+    [self.view endEditing:YES];
+}
 
 /** 1.js调用oc跳转新页面 2.新页面输出之后pop回调用js并将输入的数据传入3.js再执行弹窗
  *说明：正常情况下调用block之后 调pop程序正常运行。
@@ -52,25 +56,28 @@
     __weak typeof(self) weakSelf = self;
     if (self.resultBlock) {
         [self.navigationController popViewControllerAnimated:YES];
+        //0. 直接执行
+        self.resultBlock(result); 
+
         
         //1.Timer selector
 //        [NSTimer scheduledTimerWithTimeInterval:10 target:self selector:@selector(doResultBlcok) userInfo:nil repeats:NO]; //正常执行
         
         //1.Timer blcok
-        [NSTimer scheduledTimerWithTimeInterval:2 repeats:NO block:^(NSTimer * _Nonnull timer) {
-            //AF等实现（当循序引用时）
-            TYTextViewController *strong = weakSelf;
-            if (strong) {
-                NSLog(@"block执行");
-                strong.resultBlock(result);
-            }
-            
-            NSLog(@"block执行");
-            __strong typeof(self) strongSelf = weakSelf;
-//            strongSelf.resultBlock(result); //崩溃
-//            weakSelf.resultBlock(result); //崩溃
-//            self.resultBlock(result); //正常执行
-        }];
+//        [NSTimer scheduledTimerWithTimeInterval:2 repeats:NO block:^(NSTimer * _Nonnull timer) {
+//            //AF等实现（当循序引用时）
+//            TYTextViewController *strong = weakSelf;
+//            if (strong) {
+//                NSLog(@"block执行");
+//                strong.resultBlock(result);
+//            }
+//
+//            NSLog(@"block执行");
+//            __strong typeof(self) strongSelf = weakSelf;
+////            strongSelf.resultBlock(result); //崩溃
+////            weakSelf.resultBlock(result); //崩溃
+////            self.resultBlock(result); //正常执行
+//        }];
         
 //        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
 //            __strong typeof(self) strongSelf = weakSelf;

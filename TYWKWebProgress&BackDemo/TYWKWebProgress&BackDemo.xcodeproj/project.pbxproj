@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4A048E2826E5EA95004297AD /* TYTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A048E2726E5EA95004297AD /* TYTextViewController.m */; };
+		4A048E6726E76A1E004297AD /* QrCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A048E6126E76A1E004297AD /* QrCodeController.m */; };
+		4A048E6826E76A1E004297AD /* ARNewsSceneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A048E6226E76A1E004297AD /* ARNewsSceneView.m */; };
+		4A048E6926E76A1E004297AD /* ARNewsSceneNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A048E6326E76A1E004297AD /* ARNewsSceneNode.m */; };
 		4A15BBAB2085E1BC0035F45C /* JSCallOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 4A15BBAA2085E1BB0035F45C /* JSCallOC.html */; };
 		4A15BBAE2085E2250035F45C /* TYUIWebJSController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A15BBAD2085E2250035F45C /* TYUIWebJSController.m */; };
 		4A15BBB12085E2430035F45C /* TYWKWebJSController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A15BBB02085E2430035F45C /* TYWKWebJSController.m */; };
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		4A048E2626E5EA95004297AD /* TYTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYTextViewController.h; sourceTree = "<group>"; };
 		4A048E2726E5EA95004297AD /* TYTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYTextViewController.m; sourceTree = "<group>"; };
+		4A048E6126E76A1E004297AD /* QrCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QrCodeController.m; sourceTree = "<group>"; };
+		4A048E6226E76A1E004297AD /* ARNewsSceneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARNewsSceneView.m; sourceTree = "<group>"; };
+		4A048E6326E76A1E004297AD /* ARNewsSceneNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARNewsSceneNode.m; sourceTree = "<group>"; };
+		4A048E6426E76A1E004297AD /* QrCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QrCodeController.h; sourceTree = "<group>"; };
+		4A048E6526E76A1E004297AD /* ARNewsSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARNewsSceneNode.h; sourceTree = "<group>"; };
+		4A048E6626E76A1E004297AD /* ARNewsSceneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARNewsSceneView.h; sourceTree = "<group>"; };
 		4A15BBAA2085E1BB0035F45C /* JSCallOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSCallOC.html; sourceTree = "<group>"; };
 		4A15BBAC2085E2250035F45C /* TYUIWebJSController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYUIWebJSController.h; sourceTree = "<group>"; };
 		4A15BBAD2085E2250035F45C /* TYUIWebJSController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYUIWebJSController.m; sourceTree = "<group>"; };
@@ -58,6 +67,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A048E5F26E769E4004297AD /* webController */ = {
+			isa = PBXGroup;
+			children = (
+				4ABEB11320633B6A001F2273 /* TYWKWebProgressController.h */,
+				4ABEB11420633B6A001F2273 /* TYWKWebProgressController.m */,
+				4A15BBAC2085E2250035F45C /* TYUIWebJSController.h */,
+				4A15BBAD2085E2250035F45C /* TYUIWebJSController.m */,
+				4A15BBAF2085E2430035F45C /* TYWKWebJSController.h */,
+				4A15BBB02085E2430035F45C /* TYWKWebJSController.m */,
+				4A15BBB22085EDB70035F45C /* TYWeakScriptDelegate.h */,
+				4A15BBB32085EDB70035F45C /* TYWeakScriptDelegate.m */,
+			);
+			path = webController;
+			sourceTree = "<group>";
+		};
+		4A048E6026E76A1E004297AD /* QrCode */ = {
+			isa = PBXGroup;
+			children = (
+				4A048E6526E76A1E004297AD /* ARNewsSceneNode.h */,
+				4A048E6326E76A1E004297AD /* ARNewsSceneNode.m */,
+				4A048E6626E76A1E004297AD /* ARNewsSceneView.h */,
+				4A048E6226E76A1E004297AD /* ARNewsSceneView.m */,
+				4A048E6426E76A1E004297AD /* QrCodeController.h */,
+				4A048E6126E76A1E004297AD /* QrCodeController.m */,
+			);
+			path = QrCode;
+			sourceTree = "<group>";
+		};
 		4ABEB0F120633AED001F2273 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +114,8 @@
 		4ABEB0FC20633AED001F2273 /* TYWKWebProgress&BackDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4A048E6026E76A1E004297AD /* QrCode */,
+				4A048E5F26E769E4004297AD /* webController */,
 				4AC0F0C220B7A5EA00F31582 /* TEST.html */,
 				4A15BBAA2085E1BB0035F45C /* JSCallOC.html */,
 				4ABEB0FD20633AED001F2273 /* AppDelegate.h */,
@@ -88,14 +127,6 @@
 				4ABEB10820633AED001F2273 /* LaunchScreen.storyboard */,
 				4ABEB10B20633AED001F2273 /* Info.plist */,
 				4ABEB10C20633AED001F2273 /* main.m */,
-				4ABEB11320633B6A001F2273 /* TYWKWebProgressController.h */,
-				4ABEB11420633B6A001F2273 /* TYWKWebProgressController.m */,
-				4A15BBAC2085E2250035F45C /* TYUIWebJSController.h */,
-				4A15BBAD2085E2250035F45C /* TYUIWebJSController.m */,
-				4A15BBAF2085E2430035F45C /* TYWKWebJSController.h */,
-				4A15BBB02085E2430035F45C /* TYWKWebJSController.m */,
-				4A15BBB22085EDB70035F45C /* TYWeakScriptDelegate.h */,
-				4A15BBB32085EDB70035F45C /* TYWeakScriptDelegate.m */,
 				4A048E2626E5EA95004297AD /* TYTextViewController.h */,
 				4A048E2726E5EA95004297AD /* TYTextViewController.m */,
 			);
@@ -183,6 +214,9 @@
 				4ABEB10220633AED001F2273 /* ViewController.m in Sources */,
 				4ABEB10D20633AED001F2273 /* main.m in Sources */,
 				4ABEB0FF20633AED001F2273 /* AppDelegate.m in Sources */,
+				4A048E6726E76A1E004297AD /* QrCodeController.m in Sources */,
+				4A048E6826E76A1E004297AD /* ARNewsSceneView.m in Sources */,
+				4A048E6926E76A1E004297AD /* ARNewsSceneNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +354,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7VM5F7Z6Z;
 				INFOPLIST_FILE = "TYWKWebProgress&BackDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tangyun.TYWKWebProgress1-BackDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -336,6 +371,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7VM5F7Z6Z;
 				INFOPLIST_FILE = "TYWKWebProgress&BackDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tangyun.TYWKWebProgress1-BackDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";

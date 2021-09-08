@@ -10,6 +10,8 @@
 #import <WebKit/WebKit.h>
 #import "TYWeakScriptDelegate.h"
 #import "TYTextViewController.h"
+#import "QrCodeController.h"
+
 
 
 @interface TYWKWebJSController ()<WKScriptMessageHandler, WKNavigationDelegate, WKUIDelegate>
@@ -33,6 +35,8 @@
     [config.userContentController addScriptMessageHandler:[[TYWeakScriptDelegate alloc] initWithDelegate:self] name:@"TYTEST"];
     [config.userContentController addScriptMessageHandler:[[TYWeakScriptDelegate alloc] initWithDelegate:self] name:@"tytest3"];
     [config.userContentController addScriptMessageHandler:[[TYWeakScriptDelegate alloc] initWithDelegate:self] name:@"tyToController"];
+    [config.userContentController addScriptMessageHandler:[[TYWeakScriptDelegate alloc] initWithDelegate:self] name:@"tyCodeController"];
+
 
     
     
@@ -68,9 +72,23 @@
         //js调用OC中 去新的页面 拿到结果之后销毁页面并回传JS
         TYTextViewController *vc = [TYTextViewController controller];
         vc.resultBlock = ^(NSString *  result) {
-            NSString *tytest =[NSString stringWithFormat:@"tytest3(%@)",result];
+            NSString *tytest =[NSString stringWithFormat:@"tytest3('%@')",result];
             [self.webView evaluateJavaScript:tytest completionHandler:^(id _Nullable result, NSError * _Nullable error) {
-                
+
+                NSLog(@"");
+            }];
+        };
+        [self.navigationController pushViewController:vc animated:YES];
+        
+    } else if ([message.name isEqualToString:@"tyCodeController"]) {
+        //js调用OC中 去二维码页面 拿到结果之后销毁页面并回传JS {
+        //调起一个扫描二维码页面
+        QrCodeController *vc = [[QrCodeController alloc] init];
+        __weak typeof(self) weakSelf = self;
+        vc.webOpenQRCodeBlock = ^(NSString *result) {
+            NSString *tytest =[NSString stringWithFormat:@"tytest3('%@')",result];
+            [weakSelf.webView evaluateJavaScript:tytest completionHandler:^(id _Nullable result, NSError * _Nullable error) {
+
                 NSLog(@"");
             }];
         };
@@ -94,7 +112,8 @@
     //删除所有的回调事件
     [[self.webView configuration].userContentController removeScriptMessageHandlerForName:@"TYTEST"];
     [[self.webView configuration].userContentController removeScriptMessageHandlerForName:@"tytest3"];
-
+    [[self.webView configuration].userContentController removeScriptMessageHandlerForName:@"tyToController"];
+    [[self.webView configuration].userContentController removeScriptMessageHandlerForName:@"tyCodeController"];
 }
 
 

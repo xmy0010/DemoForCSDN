@@ -52,6 +52,8 @@
             
             <input type="button" value="跳转原生输入页面" onclick="tyToController('111111')" />
             <br/>
+            <input type="button" value="跳转原生扫描二维码页面" onclick="tyCodeController()" />
+
             <br/>
             <br/>
             
@@ -76,6 +78,11 @@
     function tyToController(someString) {
         window.webkit.messageHandlers.tyToController.postMessage({body: 'this is test tyToController'});
     }
+    
+    function tyCodeController(someString) {
+        window.webkit.messageHandlers.tyCodeController.postMessage({body: 'this is test tyToController'});
+    }
+    
     
     function tytest5(resultNumber) {
     
