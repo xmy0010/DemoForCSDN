@@ -41,77 +41,12 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    [self loadReveal];
+
 }
 
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
-
-
-- (void)loadReveal
-
-{
-    
-    if (NSClassFromString(@"IBARevealLoader") == nil)
-        
-    {
-        
-        NSString *revealLibName = @"libReveal"; // or @"libReveal-tvOS" for tvOS targets
-        
-        NSString *revealLibExtension = @"dylib";
-        
-        NSString *error;
-        
-        NSString *dyLibPath = [[NSBundle mainBundle] pathForResource:revealLibName ofType:revealLibExtension];
-        
-        if (dyLibPath != nil)
-            
-        {
-            
-            NSLog(@"Loading dynamic library: %@", dyLibPath);
-            
-            void *revealLib = dlopen([dyLibPath cStringUsingEncoding:NSUTF8StringEncoding], RTLD_NOW);
-            
-            if (revealLib == NULL)
-                
-            {
-                
-                error = [NSString stringWithUTF8String:dlerror()];
-                
-            }
-            
-        }
-        
-        else
-            
-        {
-            
-            error = @"File not found.";
-            
-        }
-        
-        if (error != nil)
-            
-        {
-            
-            NSString *message = [NSString stringWithFormat:@"%@.%@ failed to load with error: %@", revealLibName, revealLibExtension, error];
-            
-            UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Reveal library could not be loaded"
-                                        
-                                                                           message:message
-                                        
-                                                                    preferredStyle:UIAlertControllerStyleAlert];
-            
-            [alert addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil]];
-            
-            [[[[[UIApplication sharedApplication] windows] firstObject] rootViewController] presentViewController:alert animated:YES completion:nil];
-            
-        }
-        
-    }
-    
 }
 
 

@@ -2,7 +2,7 @@ platform:ios,'11.0'
 
 target "RevealDemo" do
 
-
+#pod 'IQKeyboardManager'
 pod 'Reveal-SDK', :configurations => ['Debug']
 
 

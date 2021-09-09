@@ -1,16 +1,20 @@
 PODS:
+  - IQKeyboardManager (6.5.6)
   - Reveal-SDK (31)
 
 DEPENDENCIES:
+  - IQKeyboardManager
   - Reveal-SDK
 
 SPEC REPOS:
   trunk:
+    - IQKeyboardManager
     - Reveal-SDK
 
 SPEC CHECKSUMS:
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
   Reveal-SDK: 62ae124d57732c4fe7e88635274ca24054dd2d29
 
-PODFILE CHECKSUM: 7dc3ac9df699dee96ffe42f6f87533aef5b1284b
+PODFILE CHECKSUM: e1729319676fa41ef70479c39f79d973f955f907
 
 COCOAPODS: 1.10.2
