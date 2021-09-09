@@ -23,6 +23,7 @@
 		4ABEB10D20633AED001F2273 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEB10C20633AED001F2273 /* main.m */; };
 		4ABEB11520633B6A001F2273 /* TYWKWebProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEB11420633B6A001F2273 /* TYWKWebProgressController.m */; };
 		4AC0F0C320B7A5EA00F31582 /* TEST.html in Resources */ = {isa = PBXBuildFile; fileRef = 4AC0F0C220B7A5EA00F31582 /* TEST.html */; };
+		4AEDA3D126E9DF13003C75A7 /* BaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDA3CF26E9DF13003C75A7 /* BaseWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,8 @@
 		4ABEB11320633B6A001F2273 /* TYWKWebProgressController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYWKWebProgressController.h; sourceTree = "<group>"; };
 		4ABEB11420633B6A001F2273 /* TYWKWebProgressController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYWKWebProgressController.m; sourceTree = "<group>"; };
 		4AC0F0C220B7A5EA00F31582 /* TEST.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TEST.html; sourceTree = "<group>"; };
+		4AEDA3CF26E9DF13003C75A7 /* BaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWebViewController.m; sourceTree = "<group>"; };
+		4AEDA3D026E9DF13003C75A7 /* BaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWebViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,7 @@
 		4ABEB0FC20633AED001F2273 /* TYWKWebProgress&BackDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4AEDA3CE26E9DEFE003C75A7 /* NormalWeb */,
 				4A048E6026E76A1E004297AD /* QrCode */,
 				4A048E5F26E769E4004297AD /* webController */,
 				4AC0F0C220B7A5EA00F31582 /* TEST.html */,
@@ -131,6 +135,15 @@
 				4A048E2726E5EA95004297AD /* TYTextViewController.m */,
 			);
 			path = "TYWKWebProgress&BackDemo";
+			sourceTree = "<group>";
+		};
+		4AEDA3CE26E9DEFE003C75A7 /* NormalWeb */ = {
+			isa = PBXGroup;
+			children = (
+				4AEDA3D026E9DF13003C75A7 /* BaseWebViewController.h */,
+				4AEDA3CF26E9DF13003C75A7 /* BaseWebViewController.m */,
+			);
+			path = NormalWeb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +229,7 @@
 				4ABEB0FF20633AED001F2273 /* AppDelegate.m in Sources */,
 				4A048E6726E76A1E004297AD /* QrCodeController.m in Sources */,
 				4A048E6826E76A1E004297AD /* ARNewsSceneView.m in Sources */,
+				4AEDA3D126E9DF13003C75A7 /* BaseWebViewController.m in Sources */,
 				4A048E6926E76A1E004297AD /* ARNewsSceneNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

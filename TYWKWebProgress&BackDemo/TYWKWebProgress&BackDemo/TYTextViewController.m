@@ -27,6 +27,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    NSLog(@"retainCount:%d",[self retainCount]);
     // Do any additional setup after loading the view.
     [self.view addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(endEdit)]];
 }

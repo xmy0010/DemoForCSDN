@@ -6,7 +6,6 @@
 //
 
 #import "ViewController.h"
-#define kOFFSET_FOR_KEYBOARD 80.0
 
 
 @interface ViewController ()<UITextFieldDelegate>

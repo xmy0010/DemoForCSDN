@@ -9,6 +9,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import "QrCodeController.h"
 #import "ARNewsSceneView.h"
+#import "BaseWebViewController.h"
 
 #define HexColor(hexString) [UIColor colorWithHexString:hexString withAlpha:1.]
 #define IS_IPHONE_4 ( ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone ) && ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )480 ) < DBL_EPSILON ) )
@@ -459,10 +460,19 @@
                     if(self.webOpenQRCodeBlock) {
                         [self back];
                         NSLog(@"调用block");
-//                        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                            self.webOpenQRCodeBlock(result);
-//                        });
+                        self.webOpenQRCodeBlock(result);
                         return;
+                    }
+                    //匹配网址URL的正则表达式：[a-zA-z]+://[^s]*
+                    NSString *urlRegex = @"((http[s]{0,1}|ftp)://[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)|(www.[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)";
+                    NSPredicate *urlPredicate  = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", urlRegex];
+                    if ([urlPredicate evaluateWithObject:result]) {
+                        BaseWebViewController *webController = [[BaseWebViewController alloc] init];
+                        webController.urlString = result;
+                        [self.navigationController pushViewController:webController animated:YES];
+                    }
+                    else{
+                            [self addScreenAlterViewWith:result];
                     }
                     NSLog(@"本页面处理");
                 });
@@ -578,7 +588,11 @@
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
     [[UIApplication sharedApplication] setIdleTimerDisabled:NO];
-
+    self.navigationController.navigationBar.hidden=NO;
+    if (_timer) {
+        [_timer invalidate];
+        _timer=nil;
+    }
     [self stopReading];
 }
 
