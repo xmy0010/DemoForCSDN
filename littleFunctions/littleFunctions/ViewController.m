@@ -25,7 +25,7 @@
     //模拟电信查话费
     if ([MFMessageComposeViewController canSendText]) {
         MFMessageComposeViewController *controller = [[MFMessageComposeViewController alloc] init];
-        controller.recipients = @[@"10000"];
+        controller.recipients = @[@"10001"];
         controller.navigationBar.tintColor = [UIColor redColor];
         controller.body = @"108";
         controller.messageComposeDelegate = self;
