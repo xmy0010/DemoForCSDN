@@ -18,11 +18,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3La-hn-CZr">
-                                <rect key="frame" x="27" y="99" width="62" height="30"/>
+                                <rect key="frame" x="43" y="99" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="生成短信"/>
+                                <state key="normal" title="按钮"/>
                                 <connections>
-                                    <action selector="createMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="md2-ef-LXf"/>
+                                    <action selector="onBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w9a-8M-YCg"/>
                                 </connections>
                             </button>
                         </subviews>
